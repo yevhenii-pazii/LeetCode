@@ -1,6 +1,9 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-02-23:
+* 589 easy P https://leetcode.com/problems/n-ary-tree-preorder-traversal
+
 2023-02-22:
 * 121 easy P https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 * 409 easy P https://leetcode.com/problems/longest-palindrome
