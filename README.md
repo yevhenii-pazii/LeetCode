@@ -3,6 +3,7 @@ Solutions of problems from LeetCode.com
 
 2023-02-23:
 * 589 easy P https://leetcode.com/problems/n-ary-tree-preorder-traversal
+* 102 medium P https://leetcode.com/problems/binary-tree-level-order-traversal
 
 2023-02-22:
 * 121 easy P https://leetcode.com/problems/best-time-to-buy-and-sell-stock
