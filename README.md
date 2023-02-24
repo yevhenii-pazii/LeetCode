@@ -1,6 +1,10 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-02-24:
+* 704 easy P https://leetcode.com/problems/binary-search
+* 278 easy P https://leetcode.com/problems/first-bad-version
+
 2023-02-23:
 * 589 easy P https://leetcode.com/problems/n-ary-tree-preorder-traversal
 * 102 medium P https://leetcode.com/problems/binary-tree-level-order-traversal
