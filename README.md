@@ -1,6 +1,10 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-02-25:
+* 98 medium ? https://leetcode.com/problems/validate-binary-search-tree
+* 235 medium P https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree
+
 2023-02-24:
 * 704 easy P https://leetcode.com/problems/binary-search
 * 278 easy P https://leetcode.com/problems/first-bad-version
