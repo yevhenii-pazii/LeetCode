@@ -3,6 +3,7 @@ Solutions of problems from LeetCode.com
 
 2023-02-26:
 * 773 easy P https://leetcode.com/problems/flood-fill
+* 200 medium P https://leetcode.com/problems/number-of-islands
 
 2023-02-25:
 * 98 medium P https://leetcode.com/problems/validate-binary-search-tree
