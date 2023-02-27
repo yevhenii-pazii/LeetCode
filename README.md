@@ -2,7 +2,8 @@
 Solutions of problems from LeetCode.com
 
 2023-02-27:
-* 509 easy ? https://leetcode.com/problems/fibonacci-number
+* 509 easy P https://leetcode.com/problems/fibonacci-number
+* 70 easy P https://leetcode.com/problems/climbing-stairs
 
 2023-02-26:
 * 773 easy P https://leetcode.com/problems/flood-fill
