@@ -1,6 +1,10 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-02:
+* 1 easy P https://leetcode.com/problems/two-sum
+* 299 medium P https://leetcode.com/problems/bulls-and-cows
+
 2023-03-01:
 * 438 medium P https://leetcode.com/problems/find-all-anagrams-in-a-string
 * 424 medium TO BE Done (skipped) https://leetcode.com/problems/longest-repeating-character-replacement
