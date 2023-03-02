@@ -1,6 +1,10 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-01:
+* 438 medium P https://leetcode.com/problems/find-all-anagrams-in-a-string
+* 424 medium TO BE Done (skipped) https://leetcode.com/problems/longest-repeating-character-replacement
+
 2023-02-28:
 * 746 easy P- https://leetcode.com/problems/min-cost-climbing-stairs
 * 62 medium P https://leetcode.com/problems/unique-paths
