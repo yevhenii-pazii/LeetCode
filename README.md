@@ -1,6 +1,9 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-03:
+* 844 easy P https://leetcode.com/problems/backspace-string-compare
+
 2023-03-02:
 * 1 easy P https://leetcode.com/problems/two-sum
 * 299 medium P https://leetcode.com/problems/bulls-and-cows
