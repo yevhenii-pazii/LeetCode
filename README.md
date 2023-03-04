@@ -1,6 +1,10 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-04:
+* 1046 easy P https://leetcode.com/problems/last-stone-weight
+* 692 medium ? https://leetcode.com/problems/top-k-frequent-words
+
 2023-03-03:
 * 844 easy P https://leetcode.com/problems/backspace-string-compare
 * 394 medium P-(need to improve) https://leetcode.com/problems/decode-string
