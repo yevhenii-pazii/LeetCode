@@ -1,9 +1,18 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-07:
+* 1299 easy P https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side
+* 26 easy P https://leetcode.com/problems/remove-duplicates-from-sorted-array
+* 80 medium P https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii
+
+2023-03-06:
+* 1346 easy P https://leetcode.com/problems/check-if-n-and-its-double-exist
+* 941 easy P https://leetcode.com/problems/valid-mountain-array
+
 2023-03-04:
 * 1046 easy P https://leetcode.com/problems/last-stone-weight
-* 692 medium ? https://leetcode.com/problems/top-k-frequent-words
+* 692 medium P https://leetcode.com/problems/top-k-frequent-words
 
 2023-03-03:
 * 844 easy P https://leetcode.com/problems/backspace-string-compare

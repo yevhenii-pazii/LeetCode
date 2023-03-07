@@ -1,4 +1,13 @@
+import java.util.Arrays;
+
 public class P26 {
+
+    public static void main(String[] args) {
+        var arr = new int[]{1, 1, 1, 2, 2, 3};
+        System.out.println(new P26().removeDuplicates(arr) + " " + Arrays.toString(arr));
+        System.out.println(new P26().removeDuplicatesV2(arr) + " " + Arrays.toString(arr));
+    }
+
     public int removeDuplicates(int[] nums) {
         var removed = 0;
         var i = 1;
@@ -14,6 +23,22 @@ public class P26 {
         }
 
         return nums.length - removed;
+    }
+
+    //    Solution for 26
+    public int removeDuplicatesV2(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+
+        int position = 1;
+
+        for (var i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[position - 1]) {
+                nums[position] = nums[i];
+                position++;
+            }
+        }
+
+        return position;
     }
 
 
