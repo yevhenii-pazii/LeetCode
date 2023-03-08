@@ -1,6 +1,11 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-08:
+* 283 easy P https://leetcode.com/problems/move-zeroes/
+* 905 easy P https://leetcode.com/problems/sort-array-by-parity
+* 27 easy P https://leetcode.com/problems/remove-element
+
 2023-03-07:
 * 1299 easy P https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side
 * 26 easy P https://leetcode.com/problems/remove-duplicates-from-sorted-array

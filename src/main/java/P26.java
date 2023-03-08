@@ -25,9 +25,10 @@ public class P26 {
         return nums.length - removed;
     }
 
-    //    Solution for 26
+    // My V2, much better than previously
     public int removeDuplicatesV2(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
+        if (nums.length < 2) return nums.length;
 
         int position = 1;
 

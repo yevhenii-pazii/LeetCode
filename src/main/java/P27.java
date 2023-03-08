@@ -1,4 +1,27 @@
+import java.util.Arrays;
+
 public class P27 {
+
+    public static void main(String[] args) {
+        var arr = new int[] {3,2,2,3};
+        System.out.print(new P27().removeElementV2(arr, 3) + " -> ");
+        System.out.print(Arrays.toString(arr));
+    }
+
+    public int removeElementV2(int[] nums, int val) {
+        var pointer = 0;
+        for (var i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                if (pointer < i) { // in this case if can be omitted
+                    nums[pointer] = nums[i];
+                }
+                pointer++;
+            }
+        }
+
+        return pointer;
+    }
+
     public int removeElement(int[] nums, int val) {
         var removed = 0;
         for (int i = 0; i + removed < nums.length; i++) {
@@ -13,19 +36,5 @@ public class P27 {
         return nums.length - removed;
     }
 
-/* from discussions
-    public int removeElement(int[] nums, int val) {
-        int i = 0;
-        for (int j = 0; j < nums.length; j++) {
-            if (nums[j] != val) {
-                int temp = nums[i];
-                nums[i] = nums[j];
-                nums[j] = temp;
-                i++;
-            }
-        }
-        return i;
-    }
 
-*/
 }
