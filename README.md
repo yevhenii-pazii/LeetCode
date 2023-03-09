@@ -1,6 +1,11 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-09:
+* 1051 easy P- https://leetcode.com/problems/height-checker
+* 487 medium P https://leetcode.com/problems/max-consecutive-ones-ii
+
+
 2023-03-08:
 * 283 easy P https://leetcode.com/problems/move-zeroes/
 * 905 easy P https://leetcode.com/problems/sort-array-by-parity
