@@ -1,6 +1,10 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-12:
+* 707 medium P https://leetcode.com/problems/design-linked-list/
+* 141 easy P https://leetcode.com/problems/linked-list-cycle/
+
 2023-03-11:
 * 448 easy P https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array
 
