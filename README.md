@@ -1,6 +1,9 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+2023-03-13:
+* 142 medium P https://leetcode.com/problems/linked-list-cycle-ii/
+
 2023-03-12:
 * 707 medium P https://leetcode.com/problems/design-linked-list/
 * 141 easy P https://leetcode.com/problems/linked-list-cycle/
