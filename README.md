@@ -1,6 +1,18 @@
 # LeetCode
 Solutions of problems from LeetCode.com
 
+## TODOs and improvements
+1. Add benchmarking for the tests, with significant test data size 
+   1. https://openjdk.org/jeps/230
+   1. https://openjdk.org/projects/code-tools/jmh/
+   1. https://stackoverflow.com/questions/30485856/how-to-run-jmh-from-inside-junit-tests
+   1. https://www.baeldung.com/java-microbenchmark-harness
+
+## Solved problems 
+
+2023-03-14:
+* 160 easy P https://leetcode.com/problems/intersection-of-two-linked-lists/
+
 2023-03-13:
 * 142 medium P https://leetcode.com/problems/linked-list-cycle-ii/
 
