@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems 
 
+2023-03-15:
+* 19 medium P https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
 2023-03-14:
 * 160 easy P https://leetcode.com/problems/intersection-of-two-linked-lists/
 
