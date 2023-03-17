@@ -7,8 +7,17 @@ Solutions of problems from LeetCode.com
    1. https://openjdk.org/projects/code-tools/jmh/
    1. https://stackoverflow.com/questions/30485856/how-to-run-jmh-from-inside-junit-tests
    1. https://www.baeldung.com/java-microbenchmark-harness
+2. Try out AssertJ as I see several limitations of Google Truth
+   1. If I want to check equality of object but with custom comparator
+   2. Custom toString()
 
-## Solved problems 
+## Solved problems
+
+2023-03-17:
+* 203 easy P https://leetcode.com/problems/remove-linked-list-elements/
+
+2023-03-16:
+* 206 easy P https://leetcode.com/problems/reverse-linked-list/
 
 2023-03-15:
 * 19 medium P https://leetcode.com/problems/remove-nth-node-from-end-of-list/
