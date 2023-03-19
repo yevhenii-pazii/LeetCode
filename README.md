@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-03-19:
+* 234 easy P https://leetcode.com/problems/palindrome-linked-list/
+
 2023-03-18:
 * 328 medium P https://leetcode.com/problems/odd-even-linked-list/description/
 
