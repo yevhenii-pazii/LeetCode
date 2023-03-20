@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-03-20:
+* 21 easy P https://leetcode.com/problems/merge-two-sorted-lists/
+
 2023-03-19:
 * 234 easy P https://leetcode.com/problems/palindrome-linked-list/
 
