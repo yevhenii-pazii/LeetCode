@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-03-21:
+* 2 medium P https://leetcode.com/problems/add-two-numbers/
+
 2023-03-20:
 * 21 easy P https://leetcode.com/problems/merge-two-sorted-lists/
 
