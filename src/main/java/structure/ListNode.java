@@ -45,14 +45,35 @@ public class ListNode {
     }
 
     public static ListNode list(int... nodes) {
-        var head = new ListNode(0);
-        var current = head;
+        var sentinel = new ListNode(0);
+        var current = sentinel;
 
         for (var n : nodes) {
             current.next = new ListNode(n);
             current = current.next;
         }
 
-        return head.next;
+        return sentinel.next;
+    }
+
+    public static ListNode loopList(int... nodes) {
+        var sentinel = new ListNode(0);
+        var current = sentinel;
+
+        for (var n : nodes) {
+            current.next = new ListNode(n);
+            current = current.next;
+        }
+
+        current.next = sentinel.next; //loop
+
+        return sentinel.next;
+    }
+
+    public static ListNode find(int val, ListNode head) {
+        while (head != null && head.val != val) {
+            head = head.next;
+        }
+        return head;
     }
 }

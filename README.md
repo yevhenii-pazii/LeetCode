@@ -13,8 +13,11 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-03-23:
+* 708 medium P https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/
+
 2023-03-22:
-* 430 medium ? https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+* 430 medium P https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
 
 2023-03-21:
 * 2 medium P https://leetcode.com/problems/add-two-numbers/
