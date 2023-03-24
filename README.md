@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-03-02:
+* 138 medium P https://leetcode.com/problems/copy-list-with-random-pointer/
+
 2023-03-23:
 * 708 medium P https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/
 
