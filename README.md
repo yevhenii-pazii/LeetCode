@@ -13,7 +13,10 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-2023-03-02:
+2023-03-25:
+* 61 medium P https://leetcode.com/problems/rotate-list/
+
+2023-03-24:
 * 138 medium P https://leetcode.com/problems/copy-list-with-random-pointer/
 
 2023-03-23:
