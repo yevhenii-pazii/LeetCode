@@ -12,6 +12,11 @@ Solutions of problems from LeetCode.com
    2. Custom toString()
 
 ## Solved problems
+2023-03-27:
+* 24 medium ? https://leetcode.com/problems/swap-nodes-in-pairs/
+
+2023-03-26:
+* 344 easy P https://leetcode.com/problems/reverse-string/
 
 2023-03-25:
 * 61 medium P https://leetcode.com/problems/rotate-list/
