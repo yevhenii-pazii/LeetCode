@@ -13,7 +13,7 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 2023-03-27:
-* 24 medium ? https://leetcode.com/problems/swap-nodes-in-pairs/
+* 24 medium P https://leetcode.com/problems/swap-nodes-in-pairs/
 
 2023-03-26:
 * 344 easy P https://leetcode.com/problems/reverse-string/
