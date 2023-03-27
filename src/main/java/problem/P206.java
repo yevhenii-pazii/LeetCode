@@ -1,28 +1,8 @@
-import java.util.Objects;
+package problem;
+
+import structure.ListNode;
 
 public class P206 {
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            return "{" + "val=" + val + ", next=" + next + '}';
-        }
-    }
 
 
     ListNode reverseList(ListNode head) {
@@ -35,7 +15,6 @@ public class P206 {
         return result;
     }
 
-    //Add other options: stack, loop, any else?
 
     ListNode reverseListLoop(ListNode head) {
         if (head == null) return null;
