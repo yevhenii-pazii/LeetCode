@@ -12,6 +12,10 @@ Solutions of problems from LeetCode.com
    2. Custom toString()
 
 ## Solved problems
+
+2023-03-28:
+* 700 easy P https://leetcode.com/problems/search-in-a-binary-search-tree/
+
 2023-03-27:
 * 24 medium P https://leetcode.com/problems/swap-nodes-in-pairs/
 * 206 easy P https://leetcode.com/problems/reverse-linked-list/
