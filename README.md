@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-03-29:
+* 119 easy P https://leetcode.com/problems/pascals-triangle-ii/
+
 2023-03-28:
 * 700 easy P https://leetcode.com/problems/search-in-a-binary-search-tree/
 
