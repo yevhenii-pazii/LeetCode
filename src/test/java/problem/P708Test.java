@@ -1,6 +1,5 @@
 package problem;
 
-import org.junit.Ignore;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -11,10 +10,7 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.of;
-import static structure.ListNode.find;
-import static structure.ListNode.list;
 import static structure.ListNode.loopList;
-import static structure.ListNode.node;
 
 
 public class P708Test {
