@@ -2,16 +2,19 @@
 Solutions of problems from LeetCode.com
 
 ## TODOs and improvements
-1. Add benchmarking for the tests, with significant test data size 
-   1. https://openjdk.org/jeps/230
-   1. https://openjdk.org/projects/code-tools/jmh/
-   1. https://stackoverflow.com/questions/30485856/how-to-run-jmh-from-inside-junit-tests
-   1. https://www.baeldung.com/java-microbenchmark-harness
+1. Add benchmarking for the tests, with significant test data size
+    1. https://openjdk.org/jeps/230
+    1. https://openjdk.org/projects/code-tools/jmh/
+    1. https://stackoverflow.com/questions/30485856/how-to-run-jmh-from-inside-junit-tests
+    1. https://www.baeldung.com/java-microbenchmark-harness
 2. Try out AssertJ as I see several limitations of Google Truth
-   1. If I want to check equality of object but with custom comparator
-   2. Custom toString()
+    1. If I want to check equality of object but with custom comparator
+    2. Custom toString()
 
 ## Solved problems
+
+2023-03-31:
+* 104 easy P https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 2023-03-30:
 * 70 easy P https://leetcode.com/problems/climbing-stairs/
