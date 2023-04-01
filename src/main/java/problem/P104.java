@@ -69,7 +69,7 @@ public class P104 {
 
             var length = queue.size();
             while (length-- > 0) {
-                var node  = queue.remove();
+                var node = queue.remove();
                 if (node.left != null) {
                     queue.add(node.left);
                 }
