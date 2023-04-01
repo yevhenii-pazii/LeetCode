@@ -19,7 +19,7 @@ Solutions of problems from LeetCode.com
 
 2023-04-01:
 * 50 medium P https://leetcode.com/problems/powx-n/
-* 704 easy ? https://leetcode.com/problems/binary-search/
+* 704 easy P https://leetcode.com/problems/binary-search/
 
 2023-03-31:
 * 104 easy P https://leetcode.com/problems/maximum-depth-of-binary-tree/
