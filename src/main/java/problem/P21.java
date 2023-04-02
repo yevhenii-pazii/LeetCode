@@ -1,41 +1,14 @@
-import java.util.Objects;
+package problem;
+
+import structure.ListNode;
 
 public class P21 {
 
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (!(o instanceof ListNode listNode)) return false;
-            return val == listNode.val && Objects.equals(next, listNode.next);
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(val, next);
-        }
-
-        @Override
-        public String toString() {
-            return "{" + "v=" + val + ", n=" + next + '}';
-        }
-    }
-
+    /*
+        Time Complexity O(N)
+        Space Complexity O(N)
+        N - Length of both lists
+     */
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) return list2;
         if (list2 == null) return list1;
@@ -49,6 +22,11 @@ public class P21 {
         }
     }
 
+    /*
+        Time Complexity O(N)
+        Space Complexity O(1)
+        N - Length of both lists
+     */
     public ListNode mergeTwoListsLoop(ListNode list1, ListNode list2) {
         var sentinel = new ListNode(0);
         var merge = sentinel;
