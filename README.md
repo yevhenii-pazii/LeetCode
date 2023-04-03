@@ -13,12 +13,12 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion 
-* 245 medium ? https://leetcode.com/problems/shortest-word-distance-iii/ weekly
+* 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
 * Daily 
 
 2023-04-03:
 * 881 medium P https://leetcode.com/problems/boats-to-save-people/
+* 245 medium P https://leetcode.com/problems/shortest-word-distance-iii/
 
 2023-04-02:
 * 21 easy P https://leetcode.com/problems/merge-two-sorted-lists/
