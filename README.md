@@ -17,6 +17,9 @@ Solutions of problems from LeetCode.com
 * 245 medium ? https://leetcode.com/problems/shortest-word-distance-iii/ weekly
 * Daily 
 
+2023-04-03:
+* 881 medium P https://leetcode.com/problems/boats-to-save-people/
+
 2023-04-02:
 * 21 easy P https://leetcode.com/problems/merge-two-sorted-lists/
 * 2300 medium P https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
