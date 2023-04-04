@@ -16,6 +16,9 @@ Solutions of problems from LeetCode.com
 * 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
 * Daily 
 
+2023-04-04:
+* 2405 medium P https://leetcode.com/problems/optimal-partition-of-string/
+
 2023-04-03:
 * 881 medium P https://leetcode.com/problems/boats-to-save-people/
 * 245 medium P https://leetcode.com/problems/shortest-word-distance-iii/
