@@ -16,6 +16,9 @@ Solutions of problems from LeetCode.com
 * 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
 * Daily 
 
+2023-04-05:
+* 2439 medium P- https://leetcode.com/problems/minimize-maximum-of-array/
+
 2023-04-04:
 * 2405 medium P https://leetcode.com/problems/optimal-partition-of-string/
 
