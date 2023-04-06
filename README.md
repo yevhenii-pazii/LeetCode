@@ -16,6 +16,9 @@ Solutions of problems from LeetCode.com
 * 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
 * Daily 
 
+2023-04-06:
+* 1254 medium P https://leetcode.com/problems/number-of-closed-islands/
+
 2023-04-05:
 * 2439 medium P- https://leetcode.com/problems/minimize-maximum-of-array/
 
