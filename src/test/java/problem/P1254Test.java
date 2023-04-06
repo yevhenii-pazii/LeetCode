@@ -55,6 +55,12 @@ public class P1254Test {
 
     @ParameterizedTest
     @MethodSource("data")
+    void closedIslandUnionFindWithTranslation(int[][] grid, int expected) {
+        assertThat(p1254.closedIslandUnionFindWithTranslation(grid)).isEqualTo(expected);
+    }
+
+    @ParameterizedTest
+    @MethodSource("data")
     void closedIslandRecursion(int[][] grid, int expected) {
         assertThat(p1254.closedIslandRecursion(grid)).isEqualTo(expected);
     }
