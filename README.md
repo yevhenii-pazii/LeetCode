@@ -14,7 +14,11 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
+* 760 medium ? https://leetcode.com/problems/find-anagram-mappings/ weekly
 * Daily 
+
+2023-04-08:
+* 133 medium P https://leetcode.com/problems/clone-graph/
 
 2023-04-07:
 * 1020 medium P https://leetcode.com/problems/number-of-enclaves/
