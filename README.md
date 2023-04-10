@@ -17,6 +17,9 @@ Solutions of problems from LeetCode.com
 * 760 medium ? https://leetcode.com/problems/find-anagram-mappings/ weekly
 * Daily 
 
+2023-04-10:
+* 20 easy P https://leetcode.com/problems/valid-parentheses/
+
 2023-04-09:
 * 1857 hard F https://leetcode.com/problems/largest-color-value-in-a-directed-graph/
 
