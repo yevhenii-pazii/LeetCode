@@ -14,11 +14,11 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
-* 760 medium ? https://leetcode.com/problems/find-anagram-mappings/ weekly
 * Daily 
 
 2023-04-10:
 * 20 easy P https://leetcode.com/problems/valid-parentheses/
+* 760 easy P https://leetcode.com/problems/find-anagram-mappings/ 
 
 2023-04-09:
 * 1857 hard F https://leetcode.com/problems/largest-color-value-in-a-directed-graph/
