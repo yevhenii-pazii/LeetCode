@@ -16,6 +16,9 @@ Solutions of problems from LeetCode.com
 * 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
 * Daily 
 
+2023-04-13:
+* 946 medium P https://leetcode.com/problems/validate-stack-sequences/
+
 2023-04-12:
 * 71 medium P https://leetcode.com/problems/simplify-path/
 
