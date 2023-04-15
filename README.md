@@ -13,8 +13,13 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 779 medium ? https://leetcode.com/problems/k-th-symbol-in-grammar/ recursion
+
+* 1548 hard ? https://leetcode.com/problems/the-most-similar-path-in-a-graph/ weekly
 * Daily 
+
+2023-04-15:
+* 2218 hard F https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/
+* 779 medium F https://leetcode.com/problems/k-th-symbol-in-grammar/
 
 2023-04-14:
 * 516 medium P https://leetcode.com/problems/longest-palindromic-subsequence/
