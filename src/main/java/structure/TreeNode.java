@@ -1,6 +1,7 @@
 package structure;
 
 import java.util.LinkedList;
+import java.util.Objects;
 import java.util.Queue;
 
 public class TreeNode {
@@ -12,11 +13,11 @@ public class TreeNode {
     TreeNode() {
     }
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
@@ -46,6 +47,18 @@ public class TreeNode {
         this.right = right;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof TreeNode treeNode)) return false;
+        return val == treeNode.val && Objects.equals(left, treeNode.left) && Objects.equals(right, treeNode.right);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(val, left, right);
+    }
+
     public static TreeNode node(int val) {
         return new TreeNode(val);
     }
@@ -66,7 +79,7 @@ public class TreeNode {
                     queue.add(null);
                     index += 2;
                 } else {
-                    if (index == vals.length) {
+                    if (index >= vals.length) {
                         break;
                     }
                     var lefLeaf = vals[index++];
@@ -75,7 +88,7 @@ public class TreeNode {
                     }
                     queue.add(node.left);
 
-                    if (index == vals.length) {
+                    if (index >= vals.length) {
                         break;
                     }
                     var rightLeaf = vals[index++];
