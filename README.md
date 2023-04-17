@@ -14,11 +14,12 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 2023-04-18:
-* 747 easy ? https://leetcode.com/problems/largest-number-at-least-twice-of-others/
+
 
 2023-04-17:
 * 724 easy P https://leetcode.com/problems/find-pivot-index/
 * 1431 easy P https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+* 747 easy P https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 
 2023-04-16:
 * 1639 hard F https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/
