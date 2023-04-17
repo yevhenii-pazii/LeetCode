@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-04-17:
+* 724 easy P https://leetcode.com/problems/find-pivot-index/
+
 2023-04-16:
 * 1639 hard F https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/
 * 95 medium F https://leetcode.com/problems/unique-binary-search-trees-ii/
