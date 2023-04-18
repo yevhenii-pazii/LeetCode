@@ -13,8 +13,11 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-2023-04-18:
+* Daily
 
+2023-04-18:
+* 1768 easy P https://leetcode.com/problems/merge-strings-alternately/
+* 66 easy P https://leetcode.com/problems/plus-one/
 
 2023-04-17:
 * 724 easy P https://leetcode.com/problems/find-pivot-index/
