@@ -15,6 +15,11 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+
+2023-04-19:
+* 1372 medium P https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
+* 498 medium P https://leetcode.com/problems/diagonal-traverse/ 
+
 2023-04-18:
 * 1768 easy P https://leetcode.com/problems/merge-strings-alternately/
 * 66 easy P https://leetcode.com/problems/plus-one/

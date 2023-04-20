@@ -63,6 +63,10 @@ public class TreeNode {
         return new TreeNode(val);
     }
 
+    public static TreeNode node(int val, TreeNode left, TreeNode right) {
+        return new TreeNode(val, left, right);
+    }
+
     public static TreeNode tree(Integer... vals) {
         Queue<TreeNode> queue = new LinkedList<>();
 
