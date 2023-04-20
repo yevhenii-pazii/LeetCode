@@ -15,6 +15,8 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+2023-04-20:
+* 662 medium P- https://leetcode.com/problems/maximum-width-of-binary-tree/
 
 2023-04-19:
 * 1372 medium P https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
