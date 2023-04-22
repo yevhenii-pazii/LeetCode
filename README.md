@@ -15,6 +15,12 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+2023-04-22:
+* 118 easy P https://leetcode.com/problems/pascals-triangle/
+
+2023-04-21:
+* 54 medium P https://leetcode.com/problems/spiral-matrix/
+
 2023-04-20:
 * 662 medium P- https://leetcode.com/problems/maximum-width-of-binary-tree/
 
