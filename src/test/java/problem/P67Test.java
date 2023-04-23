@@ -15,6 +15,8 @@ public class P67Test {
 
     private static Stream<Arguments> data() {
         return Stream.of(
+                arguments("0", "0", "0"),
+                arguments("10", "1", "11"),
                 arguments("11", "1", "100"),
                 arguments("1010", "1011", "10101")
         );
