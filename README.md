@@ -14,6 +14,7 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * Daily
+* 67 easy P https://leetcode.com/problems/add-binary/
 
 2023-04-22:
 * 118 easy P https://leetcode.com/problems/pascals-triangle/
