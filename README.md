@@ -14,6 +14,12 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * Daily
+* 28 easy ? https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+
+2023-04-24:
+* 1046 easy P https://leetcode.com/problems/last-stone-weight/
+
+2023-04-23:
 * 67 easy P https://leetcode.com/problems/add-binary/
 
 2023-04-22:
