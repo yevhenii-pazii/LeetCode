@@ -16,6 +16,9 @@ Solutions of problems from LeetCode.com
 * Daily
 * 28 easy ? https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 
+2023-04-25:
+* 2336 medium P https://leetcode.com/problems/smallest-number-in-infinite-set/
+
 2023-04-24:
 * 1046 easy P https://leetcode.com/problems/last-stone-weight/
 
