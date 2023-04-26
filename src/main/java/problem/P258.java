@@ -9,13 +9,10 @@ public class P258 {
     public int addDigitsLoop(int num) {
         while (num > 9) {
             var newNum = 0;
-
-            while (num > 9) {
+            do {
                 newNum += num % 10;
                 num /= 10;
-            }
-            newNum += num;
-
+            } while (num != 0);
             num = newNum;
         }
         return num;
