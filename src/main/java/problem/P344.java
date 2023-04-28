@@ -2,6 +2,10 @@ package problem;
 
 public class P344 {
 
+    /*
+        Time O(N)
+        Space O(1)
+     */
     public void reverseString(char[] s) {
         if (s == null) return;
         char temp;
@@ -12,6 +16,10 @@ public class P344 {
         }
     }
 
+    /*
+        Time O(N)
+        Space O(N)
+     */
     public void reverseStringRecursion(char[] s) {
         if (s == null) return;
 

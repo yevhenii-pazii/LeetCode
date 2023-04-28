@@ -14,8 +14,14 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * Daily
-* 28 easy ? https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+* 561 easy ? https://leetcode.com/problems/array-partition/description/
 
+2023-04-28:
+* 28 easy P https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+* 14 easy P https://leetcode.com/problems/longest-common-prefix/
+
+2023-04-27:
+* 319 medium P https://leetcode.com/problems/bulb-switcher/
 
 2023-04-26:
 * 258 easy P https://leetcode.com/problems/add-digits/description/
