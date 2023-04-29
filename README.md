@@ -14,7 +14,10 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * Daily
-* 561 easy ? https://leetcode.com/problems/array-partition/description/
+
+
+2023-04-29:
+* 561 easy P https://leetcode.com/problems/array-partition/description/
 
 2023-04-28:
 * 28 easy P https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
