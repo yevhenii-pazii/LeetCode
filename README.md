@@ -18,6 +18,7 @@ Solutions of problems from LeetCode.com
 
 2023-04-29:
 * 561 easy P https://leetcode.com/problems/array-partition/description/
+* 167 medium P https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
 2023-04-28:
 * 28 easy P https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
