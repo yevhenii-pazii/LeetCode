@@ -1,11 +1,37 @@
-import java.util.Arrays;
+package problem;
 
 public class P27 {
 
-    public static void main(String[] args) {
-        var arr = new int[] {3,2,2,3};
-        System.out.print(new P27().removeElementV2(arr, 3) + " -> ");
-        System.out.print(Arrays.toString(arr));
+
+    /*
+        Time Complexity O(N)
+        Space Complexity O(1)
+     */
+    public int removeElementCopyFromBack(int[] nums, int val) {
+        var length = nums.length;
+        var i = 0;
+        while (i < length) {
+            if (nums[i] == val) {
+                nums[i] = nums[--length];
+            } else {
+                i++;
+            }
+        }
+        return length;
+    }
+
+    /*
+        Time Complexity O(N)
+        Space Complexity O(1)
+     */
+    public int removeElementV3(int[] nums, int val) {
+        var j = 0;
+        for (var i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                nums[j++] = nums[i];
+            }
+        }
+        return j;
     }
 
     public int removeElementV2(int[] nums, int val) {

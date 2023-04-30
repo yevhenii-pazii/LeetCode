@@ -15,6 +15,8 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+2023-04-30:
+* 27 easy P https://leetcode.com/problems/remove-element/description/
 
 2023-04-29:
 * 561 easy P https://leetcode.com/problems/array-partition/description/
