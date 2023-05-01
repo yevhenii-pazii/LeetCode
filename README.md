@@ -14,6 +14,12 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * Daily
+ need to improve and generate tests
+
+
+2023-05-01:
+* 485 easy ? https://leetcode.com/problems/max-consecutive-ones/
+* 209 medium P https://leetcode.com/problems/minimum-size-subarray-sum/
 
 2023-04-30:
 * 27 easy P https://leetcode.com/problems/remove-element/description/
