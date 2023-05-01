@@ -18,7 +18,7 @@ Solutions of problems from LeetCode.com
 
 
 2023-05-01:
-* 485 easy ? https://leetcode.com/problems/max-consecutive-ones/
+* 485 easy P https://leetcode.com/problems/max-consecutive-ones/
 * 209 medium P https://leetcode.com/problems/minimum-size-subarray-sum/
 
 2023-04-30:
