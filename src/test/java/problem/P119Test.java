@@ -26,8 +26,14 @@ public class P119Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    void getRow(int rowIndex, List<Integer> expected) {
-        assertThat(p119.getRow(rowIndex)).isEqualTo(expected);
+    void getRowLoop(int rowIndex, List<Integer> expected) {
+        assertThat(p119.getRowLoop(rowIndex)).isEqualTo(expected);
+    }
+
+    @ParameterizedTest
+    @MethodSource("data")
+    void getRowLoopV2(int rowIndex, List<Integer> expected) {
+        assertThat(p119.getRowLoopV2(rowIndex)).isEqualTo(expected);
     }
 
     @ParameterizedTest

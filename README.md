@@ -17,16 +17,20 @@ Solutions of problems from LeetCode.com
  need to improve and generate tests
 
 
+2023-05-02:
+* 189 medium P https://leetcode.com/problems/rotate-array/
+* 119 easy P https://leetcode.com/problems/pascals-triangle-ii/
+
 2023-05-01:
 * 485 easy P https://leetcode.com/problems/max-consecutive-ones/
 * 209 medium P https://leetcode.com/problems/minimum-size-subarray-sum/
 
 2023-04-30:
-* 27 easy P https://leetcode.com/problems/remove-element/description/
+* 27 easy P https://leetcode.com/problems/remove-element/
 
 2023-04-29:
-* 561 easy P https://leetcode.com/problems/array-partition/description/
-* 167 medium P https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+* 561 easy P https://leetcode.com/problems/array-partition/
+* 167 medium P https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
 2023-04-28:
 * 28 easy P https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
