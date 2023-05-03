@@ -14,8 +14,10 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * Daily
- need to improve and generate tests
 
+2023-05-03:
+* 151 medium P https://leetcode.com/problems/reverse-words-in-a-string/
+* 557 easy P https://leetcode.com/problems/reverse-words-in-a-string-iii/
 
 2023-05-02:
 * 189 medium P https://leetcode.com/problems/rotate-array/
