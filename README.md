@@ -15,6 +15,11 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+* 283 easy ? https://leetcode.com/problems/move-zeroes/
+
+2023-05-04:
+* 26 easy P https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
 2023-05-03:
 * 151 medium P https://leetcode.com/problems/reverse-words-in-a-string/
 * 557 easy P https://leetcode.com/problems/reverse-words-in-a-string-iii/

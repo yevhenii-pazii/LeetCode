@@ -1,12 +1,7 @@
-import java.util.Arrays;
+package problem;
 
 public class P26 {
 
-    public static void main(String[] args) {
-        var arr = new int[]{1, 1, 1, 2, 2, 3};
-        System.out.println(new P26().removeDuplicates(arr) + " " + Arrays.toString(arr));
-        System.out.println(new P26().removeDuplicatesV2(arr) + " " + Arrays.toString(arr));
-    }
 
     public int removeDuplicates(int[] nums) {
         var removed = 0;
@@ -42,18 +37,41 @@ public class P26 {
         return position;
     }
 
-
-/* better from discussion
-    public int removeDuplicates(int[] nums) {
-        int res = 1;
-        for(int i = 1; i < nums.length; i++){
-            if(nums[i] != nums[i - 1]){
-                nums[res] = nums[i];
-                res++;
+    /*
+        Time Complexity O(N)
+        Space Complexity O(1)
+     */
+    public int removeDuplicatesTwoPointers(int[] nums) {
+        var pointer = 1;
+        for (var i = 1; i < nums.length; i++) {
+            if (nums[i - 1] != nums[i]) {
+                nums[pointer++] = nums[i];
             }
         }
-        return res;
+
+        return pointer;
     }
 
-*/
+    /*
+        Time Complexity O(N)
+        Space Complexity O(K) K - space for additional array
+     */
+    public int removeDuplicatesCounting(int[] nums) {
+        var numbers = new boolean[201]; //task constraint
+
+        for (var n : nums) {
+            numbers[n + 100] = true;
+        }
+
+        var numsPointer = 0;
+        for (var i = 0; i < numbers.length; i++) {
+            if (numbers[i]) {
+                nums[numsPointer++] = i - 100;
+            }
+        }
+
+        return numsPointer;
+    }
+
+
 }
