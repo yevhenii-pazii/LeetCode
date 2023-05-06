@@ -19,6 +19,7 @@ Solutions of problems from LeetCode.com
 2023-05-06:
 * 705 easy P https://leetcode.com/problems/design-hashset/
 * 706 easy P https://leetcode.com/problems/design-hashmap/
+* 217 easy P https://leetcode.com/problems/contains-duplicate/
 
 2023-05-04:
 * 26 easy P https://leetcode.com/problems/remove-duplicates-from-sorted-array/

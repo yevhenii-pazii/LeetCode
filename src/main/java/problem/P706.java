@@ -5,8 +5,10 @@ import java.util.Arrays;
 public class P706 {
 
     /*
-        Time Complexity O(1)
-        Space Complexity O(K) K is 1_000_001
+        Time Complexity O(K)
+        Space Complexity O(K)
+
+        K is 1_000_001
      */
     static class MyHashMap {
 

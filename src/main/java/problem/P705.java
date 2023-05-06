@@ -3,8 +3,10 @@ package problem;
 public class P705 {
 
     /*
-        Time Complexity O(1)
-        Space Complexity O(K) k is 1_000_001
+        Time Complexity O(K)
+        Space Complexity O(K)
+
+        k is 1_000_001
      */
     static class MyHashSet {
 
