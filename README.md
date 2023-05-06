@@ -15,6 +15,10 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+
+2023-05-06:
+* 705 easy P https://leetcode.com/problems/design-hashset/
+
 2023-05-04:
 * 26 easy P https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 * 283 easy P https://leetcode.com/problems/move-zeroes/

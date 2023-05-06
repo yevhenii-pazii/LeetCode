@@ -1,0 +1,32 @@
+package problem;
+
+public class P705 {
+
+    /*
+        Time Complexity O(1)
+        Space Complexity O(K) k is 1_000_001
+     */
+    static class MyHashSet {
+
+        private final boolean[] set = new boolean[1_000_001];
+
+        public MyHashSet() {
+
+        }
+
+        public void add(int key) {
+            set[key] = true;
+        }
+
+        public void remove(int key) {
+            set[key] = false;
+        }
+
+        public boolean contains(int key) {
+            return set[key];
+        }
+    }
+    /*
+        TODO: also need to implement real hashing with buckets as linked lists and Binary tree
+     */
+}
