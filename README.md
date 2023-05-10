@@ -15,6 +15,8 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+2023-05-10:
+* 136 easy P https://leetcode.com/problems/single-number/
 
 2023-05-06:
 * 705 easy P https://leetcode.com/problems/design-hashset/
