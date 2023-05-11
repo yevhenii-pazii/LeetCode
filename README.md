@@ -15,6 +15,9 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+2023-05-11:
+* 349 easy P https://leetcode.com/problems/intersection-of-two-arrays/
+
 2023-05-10:
 * 136 easy P https://leetcode.com/problems/single-number/
 
