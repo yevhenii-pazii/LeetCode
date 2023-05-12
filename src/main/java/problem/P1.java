@@ -1,6 +1,5 @@
 package problem;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,7 +40,7 @@ public class P1 {
         Space Complexity O(N)
      */
     public int[] twoSumWithMapTwoPass(int[] nums, int target) {
-        Map<Integer, Integer>  table = new HashMap<>(nums.length);
+        Map<Integer, Integer> table = new HashMap<>(nums.length);
         for (var i = 0; i < nums.length; i++) {
             table.put(nums[i], i);
         }
@@ -51,7 +50,7 @@ public class P1 {
             if (table.containsKey(numberToFind)) {
                 int index2 = table.get(numberToFind);
                 if (i != index2) {
-                    return new int[] {i, index2};
+                    return new int[]{i, index2};
                 }
             }
         }
@@ -64,7 +63,7 @@ public class P1 {
        Space Complexity O(N)
     */
     public int[] twoSumWithMapSinglePass(int[] nums, int target) {
-        Map<Integer, Integer>  table = new HashMap<>(nums.length);
+        Map<Integer, Integer> table = new HashMap<>(nums.length);
 
         for (var i = 0; i < nums.length; i++) {
             var numberToFind = target - nums[i];
