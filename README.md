@@ -15,7 +15,10 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
-2023-05-12
+2023-05-13:
+* 205 easy P https://leetcode.com/problems/isomorphic-strings/
+
+2023-05-12:
 * 202 easy P https://leetcode.com/problems/happy-number/
 * 1 easy P https://leetcode.com/problems/two-sum
 
