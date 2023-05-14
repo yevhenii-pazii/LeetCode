@@ -15,6 +15,9 @@ Solutions of problems from LeetCode.com
 
 * Daily
 
+2023-05:14:
+* 599 easy P https://leetcode.com/problems/minimum-index-sum-of-two-lists/
+
 2023-05-13:
 * 205 easy P https://leetcode.com/problems/isomorphic-strings/
 
