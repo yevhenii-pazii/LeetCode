@@ -14,6 +14,10 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 * Daily
+* 387 easy ? https://leetcode.com/problems/first-unique-character-in-a-string/
+
+2023-05-15:
+* 350 easy P https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 2023-05:14:
 * 599 easy P https://leetcode.com/problems/minimum-index-sum-of-two-lists/
