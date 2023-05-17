@@ -13,8 +13,8 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* Daily
-* 387 easy ? https://leetcode.com/problems/first-unique-character-in-a-string/
+2023-05-16:
+* 387 easy P https://leetcode.com/problems/first-unique-character-in-a-string/
 
 2023-05-15:
 * 350 easy P https://leetcode.com/problems/intersection-of-two-arrays-ii/
