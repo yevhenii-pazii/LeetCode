@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-05-17:
+* 219 easy P https://leetcode.com/problems/contains-duplicate-ii/
+
 2023-05-16:
 * 387 easy P https://leetcode.com/problems/first-unique-character-in-a-string/
 
