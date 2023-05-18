@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-05-18:
+* 359 easy P- https://leetcode.com/problems/logger-rate-limiter/
+
 2023-05-17:
 * 219 easy P https://leetcode.com/problems/contains-duplicate-ii/
 
