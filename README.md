@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-05-21:
+* 36 medium P https://leetcode.com/problems/valid-sudoku/
+
 2023-05-20:
 * 249 medium P https://leetcode.com/problems/group-shifted-strings/
 
