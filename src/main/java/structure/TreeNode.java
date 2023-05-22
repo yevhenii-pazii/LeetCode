@@ -67,6 +67,10 @@ public class TreeNode {
         return new TreeNode(val, left, right);
     }
 
+    /*
+        TODO need to fix works incorrectly
+        1,2,3,4,null,2,4,null,null,4
+     */
     public static TreeNode tree(Integer... vals) {
         Queue<TreeNode> queue = new LinkedList<>();
 

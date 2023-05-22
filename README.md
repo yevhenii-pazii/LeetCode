@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-05-22:
+* 652 medium P https://leetcode.com/problems/find-duplicate-subtrees/
+
 2023-05-21:
 * 36 medium P https://leetcode.com/problems/valid-sudoku/
 
