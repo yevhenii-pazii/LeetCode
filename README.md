@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-05-23:
+* 771 easy P https://leetcode.com/problems/jewels-and-stones/
+
 2023-05-22:
 * 652 medium P https://leetcode.com/problems/find-duplicate-subtrees/
 
