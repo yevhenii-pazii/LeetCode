@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-05-24:
+* 3 medium P https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
 2023-05-23:
 * 771 easy P https://leetcode.com/problems/jewels-and-stones/
 
