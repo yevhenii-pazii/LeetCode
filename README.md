@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-05-25:
+* 170 easy P https://leetcode.com/problems/two-sum-iii-data-structure-design/
+
 2023-05-24:
 * 3 medium P https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
