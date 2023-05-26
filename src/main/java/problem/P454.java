@@ -1,7 +1,7 @@
 package problem;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 public class P454 {
 
@@ -44,22 +44,21 @@ public class P454 {
 
         N - elements in one array
      */
-    public int fourSumCountSet(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
+    public int fourSumCountHashMap(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
         var count = 0;
 
-        Set<Integer> left = new HashSet<>();
+        Map<Integer, Integer> left = new HashMap<>();
 
         for (var n1 : nums1) {
             for (var n2 : nums2) {
-                left.add(n1 + n2);
+                //left.compute(n1 + n2, (k, old) -> old == null ? 1 : old + 1);
+                left.put(n1 + n2, left.getOrDefault(n1 + n2, 0) + 1);
             }
         }
 
         for (var n3 : nums3) {
             for (var n4 : nums4) {
-                if (left.contains(-(n3 + n4))) {
-                    count++;
-                }
+                count += left.getOrDefault(-(n3 + n4), 0);
             }
         }
 

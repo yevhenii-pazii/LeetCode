@@ -16,7 +16,8 @@ public class P454Test {
     private static Stream<Arguments> data() {
         return Stream.of(
                 arguments(new int[]{1, 2}, new int[]{-2, -1}, new int[]{-1, 2}, new int[]{0, 2}, 2),
-                arguments(new int[]{0}, new int[]{0}, new int[]{0}, new int[]{0}, 1)
+                arguments(new int[]{0}, new int[]{0}, new int[]{0}, new int[]{0}, 1),
+                arguments(new int[]{-1,-1}, new int[]{-1,1}, new int[]{-1,1}, new int[]{1,-1}, 6)
         );
     }
 
@@ -29,8 +30,8 @@ public class P454Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    void fourSumCountSet(int[] nums1, int[] nums2, int[] nums3, int[] nums4, int expected) {
-        assertThat(p454.fourSumCountSet(nums1, nums2, nums3, nums4)).isEqualTo(expected);
+    void fourSumCountHashMap(int[] nums1, int[] nums2, int[] nums3, int[] nums4, int expected) {
+        assertThat(p454.fourSumCountHashMap(nums1, nums2, nums3, nums4)).isEqualTo(expected);
     }
 
 }
