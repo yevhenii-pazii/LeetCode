@@ -13,7 +13,8 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 288 medium ? https://leetcode.com/problems/unique-word-abbreviation/
+2023-05-29:
+* 288 medium P https://leetcode.com/problems/unique-word-abbreviation/
 
 2023-05-28:
 * 347 medium P- https://leetcode.com/problems/top-k-frequent-elements/
