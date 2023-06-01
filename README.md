@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-01:
+* 622 medium P https://leetcode.com/problems/design-circular-queue/
+
 2023-05-31:
 * 380 medium F https://leetcode.com/problems/insert-delete-getrandom-o1/
 
