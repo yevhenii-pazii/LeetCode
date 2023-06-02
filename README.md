@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-02:
+* 346 easy P https://leetcode.com/problems/moving-average-from-data-stream/
+
 2023-06-01:
 * 622 medium P https://leetcode.com/problems/design-circular-queue/
 
