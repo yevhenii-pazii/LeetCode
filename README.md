@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-03:
+* 286 medium P https://leetcode.com/problems/walls-and-gates/
+
 2023-06-02:
 * 346 easy P https://leetcode.com/problems/moving-average-from-data-stream/
 
