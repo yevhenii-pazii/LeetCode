@@ -1,23 +1,16 @@
+package problem;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class P200 {
 
-    public static void main(String[] args) {
-        System.out.println(new P200().numIslands(new char[][]{
-                {'1', '1', '1', '1', '0'},
-                {'1', '1', '0', '1', '0'},
-                {'0', '1', '0', '0', '1'},
-                {'1', '0', '1', '1', '0'},
-                {'1', '0', '0', '0', '1'}
-        }));
 
-        System.out.println(new P200().numIslandsRecursion(new char[][]{
-                {'1', '1', '1', '1', '0'},
-                {'1', '1', '0', '1', '0'},
-                {'0', '1', '0', '0', '1'},
-                {'1', '0', '1', '1', '0'},
-                {'1', '0', '0', '0', '1'}
-        }));
-    }
-
+    /*
+        DFS
+        Time Complexity O(M*N)
+        Space Complexity O(M*N)
+     */
     public int numIslandsRecursion(char[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -47,7 +40,60 @@ public class P200 {
     }
 
 
-    public int numIslands(char[][] grid) {
+    /*
+        BFS
+        Time Complexity O(M*N)
+        Space Complexity O(min(M,N))
+     */
+    public int numIslandsQueue(char[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        int islands = 0;
+
+
+        int[][] shifts = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        Queue<int[]> points = new ArrayDeque<>();
+
+        for (var i = 0; i < m; i++) {
+            for (var j = 0; j < n; j++) {
+                if (grid[i][j] == '1') {
+                    islands++;
+                    points.add(new int[]{i, j});
+
+                    while (!points.isEmpty()) {
+                        var point = points.remove();
+
+                        if (grid[point[0]][point[1]] == '1') {
+
+                            for (var shift : shifts) {
+                                var newI = point[0] + shift[0];
+                                var newJ = point[1] + shift[1];
+                                if (newI >= 0 && newI < m
+                                        && newJ >= 0 && newJ < n
+                                        && grid[newI][newJ] == '1') {
+                                    points.add(new int[]{newI, newJ});
+                                }
+                            }
+
+                            grid[point[0]][point[1]] = '0';
+                        }
+                    }
+                }
+            }
+        }
+
+        return islands;
+    }
+
+    /*
+        Union Find
+
+        Unions operations is always one smaller than island, i.e.:  points 3 points 2 unions
+
+        Time Complexity O(M*N)
+        Space Complexity O(M*N)
+     */
+    public int numIslandsUnionFind(char[][] grid) {
         class UF {
             private final int[] parents;
             private final int[] size;
