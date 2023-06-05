@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-05:
+* 752 medium P https://leetcode.com/problems/open-the-lock/
+
 2023-06-04:
 * 200 medium P https://leetcode.com/problems/number-of-islands/
 
