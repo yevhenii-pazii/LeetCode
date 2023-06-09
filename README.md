@@ -12,6 +12,10 @@ Solutions of problems from LeetCode.com
     2. Custom toString()
 
 ## Solved problems
+* 155 medium ? https://leetcode.com/problems/min-stack/
+
+2023-06-06:
+* 279 medium P- https://leetcode.com/problems/perfect-squares/
 
 2023-06-05:
 * 752 medium P https://leetcode.com/problems/open-the-lock/
