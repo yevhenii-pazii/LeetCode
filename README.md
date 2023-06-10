@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-10:
+* 20 easy P https://leetcode.com/problems/valid-parentheses/
+
 2023-06-09:
 * 155 medium P https://leetcode.com/problems/min-stack/
 

@@ -27,7 +27,13 @@ public class P20Test {
 
     @ParameterizedTest
     @MethodSource("data")
-    void isValid(String s, boolean expected) {
-        assertThat(p20.isValid(s)).isEqualTo(expected);
+    void isValidStack(String s, boolean expected) {
+        assertThat(p20.isValidStack(s)).isEqualTo(expected);
+    }
+
+    @ParameterizedTest
+    @MethodSource("data")
+    void isValidArray(String s, boolean expected) {
+        assertThat(p20.isValidArray(s)).isEqualTo(expected);
     }
 }
