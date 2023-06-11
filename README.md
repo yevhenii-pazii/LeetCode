@@ -13,9 +13,11 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-11:
+* 150 medium P https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
 2023-06-10:
-* 739 medium ? https://leetcode.com/problems/daily-temperatures/
+* 739 medium P https://leetcode.com/problems/daily-temperatures/
 * 20 easy P https://leetcode.com/problems/valid-parentheses/
 
 2023-06-09:
