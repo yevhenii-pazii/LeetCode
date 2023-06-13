@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-13:
+* 494 medium P- https://leetcode.com/problems/target-sum/
+
 2023-06-11:
 * 150 medium P https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
