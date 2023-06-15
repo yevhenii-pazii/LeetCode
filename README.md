@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-14:
+* 232 easy P https://leetcode.com/problems/implement-queue-using-stacks/
+
 2023-06-13:
 * 94 easy P https://leetcode.com/problems/binary-tree-inorder-traversal/
 
