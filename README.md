@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-19:
+* 225 easy P https://leetcode.com/problems/implement-stack-using-queues/
+ 
 2023-06-14:
 * 232 easy P https://leetcode.com/problems/implement-queue-using-stacks/
 
