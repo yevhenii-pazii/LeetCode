@@ -1,25 +1,17 @@
+package problem;
+
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class P773 {
+public class P733 {
 
-    public static void main(String[] args) {
-        print(new P773()
-                .floodFill(new int[][] {{1,1,1}, {1,1,0}, {1,0,1}}, 1, 1, 2));
+    /*
+        Time Complexity O(N)
+        Space Complexity O(N)
 
-        print(new P773()
-                .floodFillRecursive(new int[][] {{1,1,1}, {1,1,0}, {1,0,1}}, 1, 1, 2));
-    }
-
-    private static void print(int [][] image) {
-        for (var row : image) {
-            for (var pixel : row) {
-                System.out.print(pixel + " ");
-            }
-            System.out.println();
-        }
-    }
-
+        N is the number of pixels in the image. We might process every pixel.
+     */
     public int[][] floodFillRecursive(int[][] image, int sr, int sc, int color) {
         fillPoint(image, sr, image.length, sc, image[0].length, image[sr][sc], color);
         return image;
@@ -34,7 +26,13 @@ public class P773 {
         fillPoint(image, r, rsize, c + 1, csize, colorFrom, colorTo);
     }
 
-    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+    /*
+        Time Complexity O(N)
+        Space Complexity O(N)
+
+        N is the number of pixels in the image. We might process every pixel.
+     */
+    public int[][] floodFillQueue(int[][] image, int sr, int sc, int color) {
         if (image[sr][sc] == color) {
             return image;
         }
@@ -74,6 +72,45 @@ public class P773 {
                 image[row][col] = color;
             }
 
+        }
+
+        return image;
+    }
+
+    /*
+        Time Complexity O(N)
+        Space Complexity O(N)
+
+        N is the number of pixels in the image. We might process every pixel.
+     */
+    public int[][] floodFillQueueV2(int[][] image, int sr, int sc, int color) {
+        if (image[sr][sc] == color) return image;
+
+        var replacing = image[sr][sc];
+        Queue<int[]> queue = new ArrayDeque<>();
+        queue.add(new int[] {sr, sc});
+
+        while (!queue.isEmpty()) {
+            var point = queue.remove();
+            if (image[point[0]][point[1]] == replacing) {
+                image[point[0]][point[1]] = color;
+
+                if (point[0] > 0) {
+                    queue.add(new int[] {point[0] - 1, point[1]});
+                }
+
+                if (point[0] < image.length - 1) {
+                    queue.add(new int[] {point[0] + 1, point[1]});
+                }
+
+                if (point[1] > 0) {
+                    queue.add(new int[] {point[0], point[1] - 1});
+                }
+
+                if (point[1] < image[0].length - 1) {
+                    queue.add(new int[] {point[0], point[1] + 1});
+                }
+            }
         }
 
         return image;

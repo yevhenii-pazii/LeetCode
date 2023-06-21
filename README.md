@@ -352,7 +352,7 @@ Solutions of problems from LeetCode.com
 * 70 easy P https://leetcode.com/problems/climbing-stairs
 
 2023-02-26:
-* 773 easy P https://leetcode.com/problems/flood-fill
+* 733 easy P https://leetcode.com/problems/flood-fill
 * 200 medium P https://leetcode.com/problems/number-of-islands
 
 2023-02-25:
