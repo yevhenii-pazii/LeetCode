@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-22:
+* 542 medium P https://leetcode.com/problems/01-matrix/
+
 2023-06-20:
 * 394 medium P https://leetcode.com/problems/decode-string/
 
