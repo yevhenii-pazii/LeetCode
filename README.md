@@ -13,6 +13,11 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+* 374 easy ? https://leetcode.com/problems/guess-number-higher-or-lower/
+
+2023-06-23:
+* 69 easy P https://leetcode.com/problems/sqrtx/
+
 2023-06-22:
 * 841 medium P https://leetcode.com/problems/keys-and-rooms/
 * 542 medium P https://leetcode.com/problems/01-matrix/
