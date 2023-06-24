@@ -14,6 +14,7 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 
 2023-06-22:
+* 841 medium P https://leetcode.com/problems/keys-and-rooms/
 * 542 medium P https://leetcode.com/problems/01-matrix/
 
 2023-06-20:
