@@ -13,9 +13,12 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 374 easy ? https://leetcode.com/problems/guess-number-higher-or-lower/
+* 33 medium ? https://leetcode.com/problems/search-in-rotated-sorted-array/
 
-2023-06-23:
+2023-06-25:
+* 374 easy P https://leetcode.com/problems/guess-number-higher-or-lower/
+
+2023-06-24:
 * 69 easy P https://leetcode.com/problems/sqrtx/
 
 2023-06-22:

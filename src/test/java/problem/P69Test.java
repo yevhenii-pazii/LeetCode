@@ -17,7 +17,7 @@ public class P69Test {
         return Stream.of(
                 arguments(4, 2),
                 arguments(8, 2),
-                arguments(2147395599, 46339)
+                arguments(Integer.MAX_VALUE, 46340)
         );
     }
 
