@@ -13,7 +13,8 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 33 medium ? https://leetcode.com/problems/search-in-rotated-sorted-array/
+2023-06-26:
+* 33 medium P https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 2023-06-25:
 * 374 easy P https://leetcode.com/problems/guess-number-higher-or-lower/
