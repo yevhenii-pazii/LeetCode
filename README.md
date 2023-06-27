@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-27:
+* 278 easy P https://leetcode.com/problems/first-bad-version/
+
 2023-06-26:
 * 33 medium P https://leetcode.com/problems/search-in-rotated-sorted-array/
 
