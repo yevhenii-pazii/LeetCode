@@ -13,6 +13,10 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-06-30:
+* 162 medium P https://leetcode.com/problems/find-peak-element/
+* 153 medium P https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
 2023-06-27:
 * 278 easy P https://leetcode.com/problems/first-bad-version/
 
