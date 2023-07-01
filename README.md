@@ -13,6 +13,10 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-07-01:
+* 34 medium P https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+* 658 medium P https://leetcode.com/problems/find-k-closest-elements/
+
 2023-06-30:
 * 162 medium P https://leetcode.com/problems/find-peak-element/
 * 153 medium P https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
