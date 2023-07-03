@@ -13,6 +13,12 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-07-03:
+* 702 medium P https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/
+
+2023-07-02:
+* 270 easy P https://leetcode.com/problems/closest-binary-search-tree-value/
+
 2023-07-01:
 * 34 medium P https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 * 658 medium P https://leetcode.com/problems/find-k-closest-elements/
