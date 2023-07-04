@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-07-04:
+* 367 easy P https://leetcode.com/problems/valid-perfect-square/
+
 2023-07-03:
 * 702 medium P https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/
 
