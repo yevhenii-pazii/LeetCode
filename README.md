@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2023-07-05:
+* 744 easy P https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+
 2023-07-04:
 * 367 easy P https://leetcode.com/problems/valid-perfect-square/
 
