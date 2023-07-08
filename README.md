@@ -13,6 +13,18 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+* 167 medium ? https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ // add binary search
+
+2023-07-08:
+* 287 medium P https://leetcode.com/problems/find-the-duplicate-number/
+* 350 easy P https://leetcode.com/problems/intersection-of-two-arrays-ii/ // added binary search
+
+2023-07-07:
+* 349 easy P https://leetcode.com/problems/intersection-of-two-arrays
+
+2023-07-06:
+* 154 hard P https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+
 2023-07-05:
 * 744 easy P https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 

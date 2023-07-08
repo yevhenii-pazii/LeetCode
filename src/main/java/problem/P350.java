@@ -1,6 +1,7 @@
 package problem;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -89,4 +90,53 @@ public class P350 {
 
         return l1.stream().mapToInt(Integer::intValue).toArray(); // or use loop
     }
+
+    public int[] intersectBinarySearch(int[] nums1, int[] nums2) {
+        if (nums2.length > nums1.length) {
+            var temp = nums1;
+            nums1 = nums2;
+            nums2 = temp;
+        }
+
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+
+        List<Integer> list = new ArrayList<>();
+
+        for (var i = 0; i < nums2.length; i++) {
+            int lo = 0, hi = nums1.length - 1;
+
+            while (lo < hi) {
+                var index = lo + (hi - lo) / 2;
+
+                if (nums1[index] >= nums2[i]) {
+                    hi = index;
+                } else {
+                    lo = index + 1;
+                }
+            }
+
+            if (nums1[lo] == nums2[i]) {
+                list.add(nums1[lo]);
+
+                while (i + 1 < nums2.length && nums2[i + 1] == nums2[i]) {
+                    i++;
+                    if (lo + 1 < nums1.length && nums1[lo + 1] == nums2[i]) {
+                        lo++;
+                        list.add(nums2[i]);
+                    }
+                }
+            }
+        }
+
+        var array = new int[list.size()];
+        var i = 0;
+        for (var n : list) {
+            array[i++] = n;
+        }
+
+        return array;
+    }
+
+
 }

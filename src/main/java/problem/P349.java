@@ -1,6 +1,7 @@
 package problem;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -114,6 +115,54 @@ public class P349 {
         for (var n = 0; n < 1001; n++) {
             if (num1Flags[n] && num2Flags[n]) {
                 result.add(n);
+            }
+        }
+
+        var array = new int[result.size()];
+        var i = 0;
+        for (var n : result) {
+            array[i++] = n;
+        }
+
+        return array;
+    }
+
+    /*
+        Time Complexity O(N log N + M * log N)
+            N log N -> sort one array
+            M * log N -> M times search in sorted array
+        Space Complexity O(K)
+        K - result size
+     */
+    public int[] intersectionSortingAndBinarySearch(int[] nums1, int[] nums2) {
+        if (nums2.length > nums1.length) { // need to have first bigger
+            var temp = nums2;
+            nums2 = nums1;
+            nums1 = temp;
+        }
+
+        Arrays.sort(nums1);
+
+        Set<Integer> result = new HashSet<>();
+
+        for (var target : nums2) {
+            if (!result.contains(target)) {
+                int lo = 0, hi = nums1.length - 1;
+
+                while (lo <= hi) {
+                    var index = lo + (hi - lo) / 2;
+
+                    if (nums1[index] == target) {
+                        result.add(target);
+                        break;
+                    }
+
+                    if (nums1[index] < target) {
+                        lo = index + 1;
+                    } else {
+                        hi = index - 1;
+                    }
+                }
             }
         }
 
