@@ -32,4 +32,10 @@ public class P167Test {
     void twoSumBinarySearch(int[] numbers, int target, int[] expected) {
         assertThat(p167.twoSumBinarySearch(numbers, target)).containsExactly(expected);
     }
+
+    @ParameterizedTest
+    @MethodSource("data")
+    void twoSumBinarySearch2(int[] numbers, int target, int[] expected) {
+        assertThat(p167.twoSumBinarySearch2(numbers, target)).containsExactly(expected);
+    }
 }

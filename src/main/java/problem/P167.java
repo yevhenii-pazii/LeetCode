@@ -58,4 +58,39 @@ public class P167 {
 
         return -1;
     }
+
+    /*
+        Time Complexity O(N * log N)
+        Space Complexity O(1)
+     */
+    public int[] twoSumBinarySearch2(int[] numbers, int target) {
+        int lo = 0, hi = numbers.length - 1;
+
+        while (lo < hi) {
+            var subTarget = target - numbers[lo];
+            int subLo = lo + 1, subHi = hi;
+
+            while (subLo < subHi) {
+                var index = subLo + (subHi - subLo) / 2;
+                if (numbers[index] == subTarget) {
+                    return new int[] {lo + 1, index + 1};
+                }
+
+                if (numbers[index] < subTarget) {
+                    subLo = index + 1;
+                } else {
+                    subHi = index;
+                }
+            }
+
+            if (numbers[subLo] == subTarget) {
+                return new int[] {lo + 1, subLo + 1};
+            }
+
+            lo++;
+            hi = subLo;
+        }
+
+        return null;
+    }
 }

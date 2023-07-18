@@ -13,7 +13,12 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 167 medium ? https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ // add binary search
+2023-07-18:
+* 215 medium P https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+2023-07-09:
+* 4 hard F https://leetcode.com/problems/median-of-two-sorted-arrays/
+* 167 medium P https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ // add binary search
 
 2023-07-08:
 * 287 medium P https://leetcode.com/problems/find-the-duplicate-number/
