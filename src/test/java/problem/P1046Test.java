@@ -41,6 +41,12 @@ public class P1046Test {
 
     @ParameterizedTest
     @MethodSource("data")
+    void lastStoneWeightArraysInsertingSortV2(int[] stones, int expected) {
+        assertThat(p1046.lastStoneWeightArraysInsertingSortV2(stones)).isEqualTo(expected);
+    }
+
+    @ParameterizedTest
+    @MethodSource("data")
     void lastStoneWeightArraysSortAndInsertingSort(int[] stones, int expected) {
         assertThat(p1046.lastStoneWeightArraysSortAndInsertingSort(stones)).isEqualTo(expected);
     }

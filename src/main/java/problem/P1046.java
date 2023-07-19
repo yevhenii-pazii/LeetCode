@@ -7,7 +7,12 @@ import java.util.Queue;
 
 public class P1046 {
 
+    //TODO implement heaplify to operate on existing array, will reduce space and will work faster
 
+    /*
+        Time Complexity O(N * Log (N) + N * Log (N))
+        Space Complexity O(N)
+     */
     public int lastStoneWeightPriorityQueue(int[] stones) {
         Queue<Integer> q = new PriorityQueue<>(stones.length, Comparator.reverseOrder());
         for (var stone : stones) {
@@ -78,6 +83,44 @@ public class P1046 {
     }
 
     /*
+        Time Complexity O(N^2 + N)
+        Space Complexity O(1)
+     */
+    public int lastStoneWeightArraysInsertingSortV2(int[] stones) {
+        var length = stones.length;
+
+        for(var i = 1; i < length; i++) { //insertion sort
+            var number = stones[i];
+
+            var j = i;
+            while (j > 0 && stones[j - 1] > number) {
+                stones[j] = stones[--j];
+            }
+            stones[j] = number;
+        }
+
+        while (length > 1) {
+            var result = stones[length - 1] - stones[length - 2];
+            if (result == 0) {
+                length -= 2;
+            } else {
+                length--;
+
+                // inserting sort
+                var j = length - 1;
+                while (j > 0 && stones[j - 1] > result) {
+                    stones[j] = stones[--j];
+                }
+                stones[j] = result;
+                //inserting sort
+            }
+
+        }
+
+        return length == 0 ? 0 : stones[0];
+    }
+
+    /*
         Simplified Insert Sort is used to insert result to a correct position
 
         Time Complexity O(N * log N)
@@ -100,13 +143,15 @@ public class P1046 {
                     stones[j] = stones[--j];
                 }
                 stones[j] = result;
-                //inserting sort
+                // inserting sort
             }
 
         }
 
         return length == 0 ? 0 : stones[0];
     }
+
+
 
     /*
         Time Complexity O(N + W)

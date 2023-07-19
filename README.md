@@ -13,6 +13,11 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+* 1046 easy ? https://leetcode.com/problems/last-stone-weight/ // add custom heap
+
+2023-07-19:
+* 703 easy P https://leetcode.com/problems/kth-largest-element-in-a-stream/
+
 2023-07-18:
 * 215 medium P https://leetcode.com/problems/kth-largest-element-in-an-array/
 

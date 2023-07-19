@@ -70,5 +70,5 @@ public class P347 {
         return result;
     }
 
-    //TODO Approach 2: Quickselect (Hoare's selection algorithm)
+    //TODO Approach 2: QuickSelect (Hoare's selection algorithm)
 }
