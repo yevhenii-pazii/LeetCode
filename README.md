@@ -13,7 +13,10 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 1046 easy ? https://leetcode.com/problems/last-stone-weight/ // add custom heap
+* 1337 easy ? https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+
+2023-07-22:
+* 1046 easy P https://leetcode.com/problems/last-stone-weight/ // add custom heap
 
 2023-07-19:
 * 703 easy P https://leetcode.com/problems/kth-largest-element-in-a-stream/

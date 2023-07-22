@@ -7,7 +7,6 @@ import java.util.Queue;
 
 public class P1046 {
 
-    //TODO implement heaplify to operate on existing array, will reduce space and will work faster
 
     /*
         Time Complexity O(N * Log (N) + N * Log (N))
@@ -30,6 +29,127 @@ public class P1046 {
 
         return q.isEmpty() ? 0 : q.peek();
     }
+
+    /*
+        Time Complexity O(N + N * log N)
+        Space Complexity O(1)
+     */
+    public int lastStoneWeightHeap(int[] stones) {
+        int length = stones.length;
+
+        heapify(stones, length);
+
+        while (length > 1) {
+            var one = pop(stones, length--);
+            var two = pop(stones, length--);
+            if (one > two) {
+                add(one - two, stones, length++);
+            }
+        }
+
+        return length == 0 ? 0 : stones[0];
+    }
+
+    /*
+        Max Heap
+        Time Complexity O(N)
+     */
+    private static void heapify(int[] array, int length) {
+        for (var index = length / 2; index > 0; index--) {
+            var i = index;
+            while (i <= length / 2) { //while not a leaf
+                var node = array[i - 1];
+                var leftIndex = i * 2;
+
+                if (array[leftIndex - 1] > node) {
+                    var rightIndex = i * 2 + 1;
+                    if (rightIndex <= length && array[rightIndex - 1] > array[leftIndex - 1]) { // take right
+                        array[i - 1] = array[rightIndex - 1];
+                        array[rightIndex - 1] = node;
+                        i = i * 2 + 1;
+                    } else { //take left
+                        array[i - 1] = array[leftIndex - 1];
+                        array[leftIndex - 1] = node;
+                        i = i * 2;
+                    }
+                } else {
+                    var rightIndex = i * 2 + 1;
+                    if (rightIndex <= length && array[rightIndex - 1] > node) {
+                        array[i - 1] = array[rightIndex - 1];
+                        array[rightIndex - 1] = node;
+                        i = i * 2 + 1;
+                    } else {
+                        break; // no swap needed
+                    }
+                }
+            }
+        }
+    }
+
+    /*
+        Max Heap
+        Time Complexity O(log N)
+     */
+    private static int pop(int[] array, int length) {
+        var head = array[0];
+
+        array[0] = array[--length];
+        var i = 1;
+        while (i <= length/2) { //while not leaf
+            var node = array[i - 1];
+            var leftIndex = i * 2;
+
+            if (array[leftIndex - 1] > node) {
+                var rightIndex = i * 2 + 1;
+
+                if (rightIndex <= length && array[rightIndex - 1] > array[leftIndex - 1]) { //take right
+                    array[i - 1] = array[rightIndex - 1];
+                    array[rightIndex - 1] = node;
+
+                    i = i * 2 + 1;
+                } else { //take left
+                    array[i - 1] = array[leftIndex - 1];
+                    array[leftIndex - 1] = node;
+
+                    i = i * 2;
+                }
+
+            } else {
+                var rightIndex = i * 2 + 1;
+
+                if (rightIndex <= length && array[rightIndex - 1] > node) { //take right
+                    array[i - 1] = array[rightIndex - 1];
+                    array[rightIndex - 1] = node;
+
+                    i = i * 2 + 1;
+                } else {
+                    break; //no swaps needed
+                }
+            }
+        }
+
+        return head;
+    }
+
+    /*
+        Max Heap
+        Time Complexity O(log N)
+    */
+    private static void add(int value, int[] array, int length) {
+        array[length++] = value;
+        var i = length;
+        while (i > 1) {
+            var parentIndex = i / 2;
+            if (array[parentIndex - 1] < value) {
+                array[i - 1] = array[parentIndex - 1];
+                array[parentIndex - 1] = value;
+                i = parentIndex;
+            } else {
+                i = 1; // to exit, no need to swap
+            }
+        }
+    }
+
 
     public int lastStoneWeightArraysSort(int[] stones) {
         int length = stones.length;
