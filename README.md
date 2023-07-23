@@ -13,7 +13,10 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
-* 378 medium ? https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+* 253 medium ? https://leetcode.com/problems/meeting-rooms-ii/
+
+2023-07-23:
+* 378 medium P https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 
 2023-07-22:
 * 1046 easy P https://leetcode.com/problems/last-stone-weight/ // add custom heap
