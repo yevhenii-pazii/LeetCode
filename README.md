@@ -15,6 +15,9 @@ Solutions of problems from LeetCode.com
 
 * 253 medium ? https://leetcode.com/problems/meeting-rooms-ii/
 
+2024-01-01:
+* 455 easy P https://leetcode.com/problems/assign-cookies/
+
 2023-07-23:
 * 378 medium P https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 
