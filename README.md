@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-01-02:
+* 2610 medium P https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions
+
 2024-01-01:
 * 455 easy P https://leetcode.com/problems/assign-cookies/
 
