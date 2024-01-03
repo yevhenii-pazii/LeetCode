@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-01-03:
+* 2125 medium P https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+
 2024-01-02:
 * 2610 medium P https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions
 
