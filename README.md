@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-01-04:
+* 2870 medium P https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/
+
 2024-01-03:
 * 2125 medium P https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
 
