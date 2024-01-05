@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-01-05:
+* 300 medium F https://leetcode.com/problems/longest-increasing-subsequence/ //TODO dynamic 
+
 2024-01-04:
 * 2870 medium P https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/
 
