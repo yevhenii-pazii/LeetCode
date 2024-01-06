@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-01-06:
+* 973 medium P- https://leetcode.com/problems/k-closest-points-to-origin/ //only Heap
+
 2024-01-05:
 * 300 medium F https://leetcode.com/problems/longest-increasing-subsequence/ //TODO dynamic 
 

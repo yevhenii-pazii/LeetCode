@@ -17,7 +17,8 @@ public class P253Test {
     private static Stream<Arguments> data() {
         return Stream.of(
                 arguments(new int[][]{{0, 30}, {5, 10}, {15, 20}}, 2),
-                arguments(new int[][]{{7, 10}, {2, 4}}, 1)
+                arguments(new int[][]{{7, 10}, {2, 4}}, 1),
+                arguments(new int[][]{{13,15},{1,13},{6,9}}, 2)
         );
     }
 
