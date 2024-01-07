@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-01-07:
+* 1167 medium P https://leetcode.com/problems/minimum-cost-to-connect-sticks/
+
 2024-01-06:
 * 973 medium P- https://leetcode.com/problems/k-closest-points-to-origin/ //only Heap
 

@@ -41,7 +41,8 @@ class P973 {
         Space Complexity O(K)
      */
     public int[][] kClosestMaxHeap(int[][] points, int k) {
-        Queue<Map.Entry<Integer, int[]>> maxHeap = new PriorityQueue<>(k, Map.Entry.comparingByKey(Comparator.reverseOrder()));
+        Queue<Map.Entry<Integer, int[]>> maxHeap = new PriorityQueue<>(
+                k, Map.Entry.comparingByKey(Comparator.reverseOrder()));
 
         for (int[] point : points) {
             var entry = new Entry(point[0] * point[0] + point[1] * point[1], point);
