@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-01-08:
+* 938 easy P https://leetcode.com/problems/range-sum-of-bst/
+
 2024-01-07:
 * 1167 medium P https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 
