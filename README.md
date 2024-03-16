@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-03-16:
+* 9 easy P- https://leetcode.com/problems/palindrome-number/
+
 2024-01-08:
 * 938 easy P https://leetcode.com/problems/range-sum-of-bst/
 
