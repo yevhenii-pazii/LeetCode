@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-03-17:
+* 57 medium P https://leetcode.com/problems/insert-interval/
+
 2024-03-16:
 * 9 easy P- https://leetcode.com/problems/palindrome-number/
 
