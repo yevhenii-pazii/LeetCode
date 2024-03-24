@@ -1,9 +1,9 @@
-package problem;
+package problem.p200_299;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class P287 {
+class P287 {
 
     /*
         Bruteforce
@@ -26,6 +26,8 @@ public class P287 {
     /*
         Time Complexity O(N)
         Space Complexity O(N)
+
+        The fastest so far
      */
     public int findDuplicateCounting(int[] nums) {
         boolean[] visited = new boolean[nums.length];
@@ -45,6 +47,7 @@ public class P287 {
         Time Complexity O(N)
         Space Complexity O(1)
 
+        NOT MINE
         But works only numbers less than 31
      */
     public int findDuplicateBits(int[] nums) {
@@ -61,6 +64,11 @@ public class P287 {
         return 0;
     }
 
+    /*
+        Time Complexity O(N)
+        Space Complexity O(N)
+
+     */
     public int findDuplicateSet(int[] nums) {
         Set<Integer> set = new HashSet<>();
 
@@ -76,11 +84,12 @@ public class P287 {
     }
 
     /*
+        Cycle Sort
+
         Time Complexity O(N)
         Space Complexity O(1)
 
         NOT MINE
-
      */
     public int findDuplicateCyclicSort(int[] nums) {
         while (nums[0] != nums[nums[0]]) {
@@ -91,5 +100,29 @@ public class P287 {
         return nums[0];
     }
 
-    //TODO there are a lot of other approaches
+    /*
+        Floyd's Tortoise Hare (Slow Fast pointer)
+
+        Time Complexity O(N)
+        Space Complexity O(1)
+
+     */
+    public int findDuplicateFastSlow(int[] nums) {
+        int slow = 0, fast = 0;
+
+        do {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        } while (slow != fast);
+
+        slow = 0;
+
+        while (slow != fast) {
+            slow = nums[slow];
+            fast = nums[fast];
+        }
+
+        return slow;
+    }
+
 }
