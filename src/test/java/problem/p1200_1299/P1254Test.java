@@ -1,4 +1,4 @@
-package problem;
+package problem.p1200_1299;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P1254Test {
+class P1254Test {
 
     private final P1254 p1254 = new P1254();
 

@@ -1,9 +1,9 @@
-package problem;
+package problem.p1200_1299;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class P1254 {
+class P1254 {
 
     private static class UnionFind {
         private int[] parent;
