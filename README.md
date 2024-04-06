@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-04-06:
+* 1249 medium P- https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/ //with hints 
+
 2024-03-24:
 * 287 medium P https://leetcode.com/problems/find-the-duplicate-number/
 
