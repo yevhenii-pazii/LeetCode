@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-04-07:
+* 678 medium P https://leetcode.com/problems/valid-parenthesis-string/ // missing DP solutions
+
 2024-04-06:
 * 1249 medium P- https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/ //with hints 
 
