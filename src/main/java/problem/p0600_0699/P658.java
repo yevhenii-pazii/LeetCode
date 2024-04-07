@@ -1,10 +1,10 @@
-package problem;
+package problem.p0600_0699;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class P658 {
+class P658 {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         return Collections.emptyList();
     }

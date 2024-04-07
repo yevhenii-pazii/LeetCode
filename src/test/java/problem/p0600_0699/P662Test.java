@@ -1,4 +1,4 @@
-package problem;
+package problem.p0600_0699;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 import static structure.TreeNode.tree;
 
-public class P662Test {
+class P662Test {
 
     private final P662 p662 = new P662();
 

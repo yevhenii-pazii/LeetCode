@@ -1,6 +1,6 @@
-package problem;
+package problem.p0600_0699;
 
-public class P622 {
+class P622 {
 
     /*
         Time Complexity O(1) for all operations

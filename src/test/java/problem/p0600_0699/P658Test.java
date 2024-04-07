@@ -1,4 +1,4 @@
-package problem;
+package problem.p0600_0699;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P658Test {
+class P658Test {
 
     private final P658 p658 = new P658();
 

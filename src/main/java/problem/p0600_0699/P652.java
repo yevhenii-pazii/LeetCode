@@ -1,4 +1,4 @@
-package problem;
+package problem.p0600_0699;
 
 import structure.TreeNode;
 
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class P652 {
+class P652 {
 
     //TODO check second approach from Editorial
 

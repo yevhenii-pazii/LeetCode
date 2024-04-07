@@ -1,14 +1,12 @@
-package problem;
+package problem.p0600_0699;
 
 import structure.TreeNode;
 
-import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Queue;
 
 
-public class P662 {
+class P662 {
 
     public int widthOfBinaryTree(TreeNode root) {
         var maxWidth = 0;
