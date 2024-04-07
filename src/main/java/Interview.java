@@ -26,6 +26,9 @@ public class Interview {
         }
     }
 
+    /*
+         Find nodes visible from the left side. I.E. first lift node for each level
+     */
     public static void main(String[] args) {
         System.out.println(leftSide(
                 new Node(4,

@@ -48,6 +48,6 @@ public class P2 {
             overflow = false;
         }
 
-        return new ListNode(sum, addTwoNumbersRecursion(l1 != null ? l1.next: null, l2 != null ? l2.next : null, overflow));
+        return new ListNode(sum, addTwoNumbersRecursion(l1 != null ? l1.next : null, l2 != null ? l2.next : null, overflow));
     }
 }
