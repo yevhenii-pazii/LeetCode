@@ -1,10 +1,10 @@
-package problem;
+package problem.p0400_0499;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Objects;
 
-public class P430 {
+class P430 {
 
     static class Node {
         public int val;

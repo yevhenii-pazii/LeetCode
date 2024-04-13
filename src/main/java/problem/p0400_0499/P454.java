@@ -1,9 +1,9 @@
-package problem;
+package problem.p0400_0499;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class P454 {
+class P454 {
 
     /*
         Time Complexity O(N * N * N * N) N^4

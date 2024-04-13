@@ -1,6 +1,6 @@
-package problem;
+package problem.p0400_0499;
 
-public class P485 {
+class P485 {
 
     /*
         Time Complexity O(N)

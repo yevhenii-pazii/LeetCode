@@ -1,6 +1,6 @@
-package problem;
+package problem.p0400_0499;
 
-public class P498 {
+class P498 {
     public int[] findDiagonalOrder(int[][] mat) {
         var result = new int[mat.length * mat[0].length];
 

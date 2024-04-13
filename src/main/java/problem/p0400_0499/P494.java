@@ -1,9 +1,9 @@
-package problem;
+package problem.p0400_0499;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class P494 {
+class P494 {
 
     /*
         Time Complexity O(2 ^ N) Time limit exceed
