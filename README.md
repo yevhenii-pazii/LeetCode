@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+2024-04-13:
+* 402 medium P https://leetcode.com/problems/remove-k-digits/
+
 2024-04-07:
 * 678 medium P https://leetcode.com/problems/valid-parenthesis-string/ // missing DP solutions
 
