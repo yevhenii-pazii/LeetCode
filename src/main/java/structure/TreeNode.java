@@ -55,6 +55,15 @@ public class TreeNode {
     }
 
     @Override
+    public String toString() {
+        return "TreeNode{" +
+                "val=" + val + "," +
+                "left=" + (left != null) + "," +
+                "right=" + (right != null) +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(val, left, right);
     }
@@ -67,48 +76,31 @@ public class TreeNode {
         return new TreeNode(val, left, right);
     }
 
-    /*
-        TODO need to fix works incorrectly
-        1,2,3,4,null,2,4,null,null,4
-     */
     public static TreeNode tree(Integer... vals) {
+        TreeNode root = node(vals[0]);
         Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
 
-        var result = new TreeNode(vals[0]);
         var index = 1;
-        queue.offer(result);
 
-        while (index < vals.length) {
-            var queueSize = queue.size();
-            for (var i = 0; i < queueSize; i++) {
-                var node = queue.remove();
-                if (node == null) {
-                    queue.add(null);
-                    queue.add(null);
-                    index += 2;
+        var left = true;
+        while (index < vals.length && !queue.isEmpty()) {
+            var currentNode = left ? queue.peek() : queue.poll();
+            if (vals[index] != null) {
+                var newNode = node(vals[index]);
+                if (left) {
+                    currentNode.setLeft(newNode);
                 } else {
-                    if (index >= vals.length) {
-                        break;
-                    }
-                    var lefLeaf = vals[index++];
-                    if (lefLeaf != null) {
-                        node.left = new TreeNode(lefLeaf);
-                    }
-                    queue.add(node.left);
-
-                    if (index >= vals.length) {
-                        break;
-                    }
-                    var rightLeaf = vals[index++];
-                    if (rightLeaf != null) {
-                        node.right = new TreeNode(rightLeaf);
-                    }
-                    queue.add(node.right);
+                    currentNode.setRight(newNode);
                 }
+                queue.add(newNode);
             }
+
+            left = !left;
+            index++;
         }
 
-        return result;
+        return root;
     }
 
 }
