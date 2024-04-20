@@ -13,6 +13,9 @@ Solutions of problems from LeetCode.com
 
 ## Solved problems
 
+20224-04-20:
+* 1992 medium P https://leetcode.com/problems/find-all-groups-of-farmland/ // add recursion
+
 2024-04-14:
 * 404 easy P https://leetcode.com/problems/sum-of-left-leaves/
 
