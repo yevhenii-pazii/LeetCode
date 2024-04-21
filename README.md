@@ -12,8 +12,10 @@ Solutions of problems from LeetCode.com
     2. Custom toString()
 
 ## Solved problems
+2024-04-21:
+* 1971 easy P https://leetcode.com/problems/find-if-path-exists-in-graph/
 
-20224-04-20:
+2024-04-20:
 * 1992 medium P https://leetcode.com/problems/find-all-groups-of-farmland/ // add recursion
 
 2024-04-14:
