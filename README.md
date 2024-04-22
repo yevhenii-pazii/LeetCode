@@ -11,6 +11,9 @@ Solutions of problems from LeetCode.com
 3. Add tests to structure package
 
 ## Solved problems
+2024-04-22:
+* 752 medium P https://leetcode.com/problems/open-the-lock/ 
+
 2024-04-21:
 * 1971 easy P https://leetcode.com/problems/find-if-path-exists-in-graph/
 
