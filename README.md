@@ -4,12 +4,11 @@ Solutions of problems from LeetCode.com
 ## TODOs and improvements
 1. Add benchmarking for the tests, with significant test data size
     1. https://openjdk.org/jeps/230
-    1. https://openjdk.org/projects/code-tools/jmh/
-    1. https://stackoverflow.com/questions/30485856/how-to-run-jmh-from-inside-junit-tests
-    1. https://www.baeldung.com/java-microbenchmark-harness
-2. Try out AssertJ as I see several limitations of Google Truth
-    1. If I want to check equality of object but with custom comparator
-    2. Custom toString()
+    2. https://openjdk.org/projects/code-tools/jmh/
+    3. https://stackoverflow.com/questions/30485856/how-to-run-jmh-from-inside-junit-tests
+    4. https://www.baeldung.com/java-microbenchmark-harness
+2. Add ArchUnit to test that classes are not public, has allowed imports, etc
+3. Add tests to structure package
 
 ## Solved problems
 2024-04-21:
