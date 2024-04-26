@@ -2,7 +2,7 @@ package problem;
 
 class P876 {
 
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next;
 

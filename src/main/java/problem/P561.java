@@ -2,7 +2,7 @@ package problem;
 
 import java.util.Arrays;
 
-public class P561 {
+class P561 {
 
     /*
         Time Complexity O(N * log N) for sorting

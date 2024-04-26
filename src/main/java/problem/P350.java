@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class P350 {
+class P350 {
 
     /*
         Time Complexity O(N1 + N2)

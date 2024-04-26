@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class P359 {
+class P359 {
 
     /*
         TODO need to implement some solutions and tests

@@ -1,6 +1,6 @@
 package problem;
 
-public class P319 {
+class P319 {
 
     /*
         Time O(1)

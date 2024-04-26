@@ -3,7 +3,7 @@ package problem;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class P1020 {
+class P1020 {
 
     private static class UnionFind {
         private int[] parent;

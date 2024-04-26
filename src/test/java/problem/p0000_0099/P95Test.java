@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 import static structure.TreeNode.tree;
 
-public class P95Test {
+class P95Test {
 
     private final P95 p95 = new P95();
 

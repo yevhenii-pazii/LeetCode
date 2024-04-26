@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 class P98 {
 
-    public static class TreeNode {
+    static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

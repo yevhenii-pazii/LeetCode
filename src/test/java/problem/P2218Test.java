@@ -11,7 +11,7 @@ import static java.util.List.of;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P2218Test {
+class P2218Test {
 
     private final P2218 p2218 = new P2218();
 

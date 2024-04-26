@@ -3,7 +3,7 @@ package problem;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class P2390 {
+class P2390 {
 
     /*
         Stack approach

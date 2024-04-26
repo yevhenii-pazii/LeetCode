@@ -1,6 +1,6 @@
 package problem;
 
-public class P300 {
+class P300 {
 
     public int lengthOfLIS(int[] nums) {
         return 1;

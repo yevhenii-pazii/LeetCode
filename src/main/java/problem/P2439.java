@@ -1,6 +1,6 @@
 package problem;
 
-public class P2439 {
+class P2439 {
 
 
     /*

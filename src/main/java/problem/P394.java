@@ -3,7 +3,7 @@ package problem;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class P394 {
+class P394 {
 
     /*
         Linear

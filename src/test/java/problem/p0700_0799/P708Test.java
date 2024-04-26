@@ -13,7 +13,7 @@ import static org.junit.jupiter.params.provider.Arguments.of;
 import static structure.ListNode.loopList;
 
 
-public class P708Test {
+class P708Test {
 
     private final P708 p708 = new P708();
 

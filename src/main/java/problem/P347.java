@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class P347 {
+class P347 {
 
     /*
         Time Complexity O(N * log N)

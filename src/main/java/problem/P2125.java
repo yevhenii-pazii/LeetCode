@@ -1,6 +1,6 @@
 package problem;
 
-public class P2125 {
+class P2125 {
 
     /*
         Time Complexity O(N * M) -> array length * row length

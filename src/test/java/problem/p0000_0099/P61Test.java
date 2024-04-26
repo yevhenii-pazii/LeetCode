@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.of;
 import static structure.ListNode.list;
 
-public class P61Test {
+class P61Test {
     private final P61 p61 = new P61();
 
     private static Stream<Arguments> data() {

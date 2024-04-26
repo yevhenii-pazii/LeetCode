@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.offset;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P346Test {
+class P346Test {
 
     private static Stream<Arguments> data() {
         return Stream.of(

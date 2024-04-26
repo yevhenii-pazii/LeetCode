@@ -5,7 +5,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class P374Test {
+class P374Test {
 
     //private final P374 p374 = new P374();
 

@@ -1,6 +1,6 @@
 package problem;
 
-public class P557 {
+class P557 {
 
     /*
         Time Complexity O(N)

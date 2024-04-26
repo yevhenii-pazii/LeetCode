@@ -2,7 +2,7 @@ package problem;
 
 import java.util.List;
 
-public class P2218 {
+class P2218 {
 
     /*
         Not mine, too complicated for me

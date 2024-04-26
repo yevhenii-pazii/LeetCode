@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class P2336Test {
+class P2336Test {
 
     @Test
     void smallestInfiniteSet() {

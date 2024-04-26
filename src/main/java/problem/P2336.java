@@ -3,7 +3,7 @@ package problem;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class P2336 {
+class P2336 {
 
     /*
         Here, n is the number addBack(num) and m is the number of popSmallest() method calls.

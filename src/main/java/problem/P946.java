@@ -3,7 +3,7 @@ package problem;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class P946 {
+class P946 {
 
     /*
         Time Complexity O(N)

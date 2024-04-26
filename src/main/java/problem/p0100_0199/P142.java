@@ -33,7 +33,7 @@ class P142 {
     }
 
 
-    public class SolutionV1 {
+    class SolutionV1 {
         public ListNode detectCycle(ListNode head) {
             Set<ListNode> nodes = new HashSet<>();
             while (head != null && !nodes.contains(head)) {

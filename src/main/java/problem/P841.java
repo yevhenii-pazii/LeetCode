@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.List;
 import java.util.Queue;
 
-public class P841 {
+class P841 {
 
     /*
         Time Complexity O(N)

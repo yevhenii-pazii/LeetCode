@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class P349 {
+class P349 {
 
     /*
         Time Complexity O(N * M)

@@ -1,6 +1,6 @@
 package problem;
 
-public class P1768 {
+class P1768 {
 
     /*
         Time Complexity O(N)

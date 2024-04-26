@@ -1,7 +1,7 @@
 package problem.p0200_0299;
 
 class P235 {
-    public static class TreeNode {
+    static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

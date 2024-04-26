@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P733Test {
+class P733Test {
     private final P733 p733 = new P733();
 
     private static Stream<Arguments> data() {

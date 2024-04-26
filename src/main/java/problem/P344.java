@@ -1,6 +1,6 @@
 package problem;
 
-public class P344 {
+class P344 {
 
     /*
         Time O(N)

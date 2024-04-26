@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P2125Test {
+class P2125Test {
 
     private final P2125 p2125 = new P2125();
 

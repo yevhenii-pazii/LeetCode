@@ -1,6 +1,6 @@
 package problem;
 
-public class P516 {
+class P516 {
 
     /*
         Fails because of time complexity.

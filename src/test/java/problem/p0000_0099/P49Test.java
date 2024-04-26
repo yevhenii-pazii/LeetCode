@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P49Test {
+class P49Test {
 
     private final P49 p49 = new P49();
 

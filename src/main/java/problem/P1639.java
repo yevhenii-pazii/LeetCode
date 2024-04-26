@@ -1,6 +1,6 @@
 package problem;
 
-public class P1639 {
+class P1639 {
 
     public int numWays(String[] words, String target) {
         var wordLength = words[0].length();

@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 import static structure.ListNode.list;
 
-public class P24Test {
+class P24Test {
 
     private final P24 p24 = new P24();
 

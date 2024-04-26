@@ -13,7 +13,7 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 import static structure.TreeNode.node;
 import static structure.TreeNode.tree;
 
-public class P700Test {
+class P700Test {
 
     private final P700 p700 = new P700();
 

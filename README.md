@@ -7,8 +7,7 @@ Solutions of problems from LeetCode.com
     2. https://openjdk.org/projects/code-tools/jmh/
     3. https://stackoverflow.com/questions/30485856/how-to-run-jmh-from-inside-junit-tests
     4. https://www.baeldung.com/java-microbenchmark-harness
-2. Add ArchUnit to test that classes are not public, has allowed imports, etc
-3. Add tests to structure package
+2. Add tests to structure package
 
 ## Solved problems
 2024-04-26:

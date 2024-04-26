@@ -1,6 +1,6 @@
 package problem;
 
-public class P374 {
+class P374 {
 
     static class GuessGame {
 
@@ -15,7 +15,7 @@ public class P374 {
         }
     }
 
-    public static class Solution extends GuessGame {
+    static class Solution extends GuessGame {
 
         public Solution(int pick) {
             super(pick);

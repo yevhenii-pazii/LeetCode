@@ -2,7 +2,7 @@ package problem;
 
 import java.util.Arrays;
 
-public class P2405 {
+class P2405 {
 
     /*
         My solution

@@ -12,7 +12,7 @@ import static org.junit.jupiter.params.provider.Arguments.of;
 import static structure.ListNode.list;
 import static structure.ListNode.node;
 
-public class P21Test {
+class P21Test {
 
     private final P21 p21 = new P21();
 

@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 import static structure.TreeNode.node;
 
-public class P94Test {
+class P94Test {
 
     private final P94 p94 = new P94();
 

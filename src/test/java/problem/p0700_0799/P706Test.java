@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class P706Test {
+class P706Test {
 
     @Test
     void myHashMapBasicOperations() {

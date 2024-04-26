@@ -1,4 +1,4 @@
 package problem;
 
-public class P359Test {
+class P359Test {
 }

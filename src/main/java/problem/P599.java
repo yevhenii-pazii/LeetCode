@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class P599 {
+class P599 {
 
     /*
         Time Complexity O(l1 + l2 + l2) ~ O(N)

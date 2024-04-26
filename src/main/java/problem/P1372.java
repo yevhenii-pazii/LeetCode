@@ -5,7 +5,7 @@ import structure.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class P1372 {
+class P1372 {
 
     /*
         Depth first

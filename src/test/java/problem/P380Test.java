@@ -1,6 +1,6 @@
 package problem;
 
-public class P380Test {
+class P380Test {
 
     // TODO Add tests
 }

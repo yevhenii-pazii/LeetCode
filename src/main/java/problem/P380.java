@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class P380 {
+class P380 {
 
     static class RandomizedSet {
 

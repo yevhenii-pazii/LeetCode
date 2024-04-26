@@ -1,6 +1,6 @@
 package problem;
 
-public class P367 {
+class P367 {
 
     /*
         Time Complexity O(log N)

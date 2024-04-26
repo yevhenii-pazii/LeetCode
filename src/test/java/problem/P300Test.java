@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class P300Test {
+class P300Test {
 
     private final P300 p300 = new P300();
 

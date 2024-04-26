@@ -3,7 +3,7 @@ package problem;
 import java.util.ArrayList;
 import java.util.List;
 
-public class P1431 {
+class P1431 {
 
     /*
         Time Complexity O(N)

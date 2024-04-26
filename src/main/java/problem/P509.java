@@ -1,6 +1,6 @@
 package problem;
 
-public class P509 {
+class P509 {
 
 
     /*

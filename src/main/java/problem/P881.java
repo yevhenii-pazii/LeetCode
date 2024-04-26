@@ -2,7 +2,7 @@ package problem;
 
 import java.util.Arrays;
 
-public class P881 {
+class P881 {
 
     /*
         Time Complexity O(N * log N) -> N * log N used for sort + N for final loop -> N * log N

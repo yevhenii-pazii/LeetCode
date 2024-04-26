@@ -7,7 +7,7 @@ import java.util.Queue;
 
 class P102 {
 
-    public static class TreeNode {
+    static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

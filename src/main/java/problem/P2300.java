@@ -2,7 +2,7 @@ package problem;
 
 import java.util.Arrays;
 
-public class P2300 {
+class P2300 {
 
     /*
         Time Complexity O(N*M)

@@ -3,7 +3,7 @@ package problem;
 import java.util.HashMap;
 import java.util.Map;
 
-public class P387 {
+class P387 {
 
     /*
         TODO implement

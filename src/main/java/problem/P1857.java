@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class P1857 {
+class P1857 {
 
     public int largestPathValue(String colors, int[][] edges) {
         var color = colors.toCharArray();
