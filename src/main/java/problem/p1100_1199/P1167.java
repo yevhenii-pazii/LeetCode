@@ -1,4 +1,4 @@
-package problem;
+package problem.p1100_1199;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
