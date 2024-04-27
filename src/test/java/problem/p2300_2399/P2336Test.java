@@ -1,4 +1,4 @@
-package problem;
+package problem.p2300_2399;
 
 import org.junit.jupiter.api.Test;
 
