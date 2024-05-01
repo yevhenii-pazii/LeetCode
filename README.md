@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-05-01:
+* 2000 easy P https://leetcode.com/problems/reverse-prefix-of-word/
+
 2024-04-26:
 * 1290 easy P https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
