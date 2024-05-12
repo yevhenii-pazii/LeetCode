@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-05-12:
+* 2373 easy P https://leetcode.com/problems/largest-local-values-in-a-matrix/
+
 2024-05-01:
 * 2000 easy P https://leetcode.com/problems/reverse-prefix-of-word/
 
