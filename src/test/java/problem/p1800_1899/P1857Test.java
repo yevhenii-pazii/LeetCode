@@ -1,4 +1,4 @@
-package problem;
+package problem.p1800_1899;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
