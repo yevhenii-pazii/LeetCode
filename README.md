@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-05-21:
+* 78 medium P https://leetcode.com/problems/subsets/
+
 2024-05-20:
 * 1863 easy F https://leetcode.com/problems/sum-of-all-subset-xor-totals/
 
