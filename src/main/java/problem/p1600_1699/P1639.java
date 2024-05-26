@@ -1,4 +1,4 @@
-package problem;
+package problem.p1600_1699;
 
 class P1639 {
 
