@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-05-26:
+* 131 medium P- https://leetcode.com/problems/palindrome-partitioning/
+
 2024-05-21:
 * 78 medium P https://leetcode.com/problems/subsets/
 

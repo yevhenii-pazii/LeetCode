@@ -35,21 +35,21 @@ class P78Test {
     @MethodSource("data")
     void subsetsBacktrackingRecursion(int[] nums, List<List<Integer>> result) {
         assertThat(p78.subsetsBacktrackingRecursion(nums))
-            .containsExactlyInAnyOrder(result.toArray(new List[]{}));
+            .containsExactlyInAnyOrderElementsOf(result);
     }
 
     @ParameterizedTest
     @MethodSource("data")
     void subsetsBacktrackingLoop(int[] nums, List<List<Integer>> result) {
         assertThat(p78.subsetsBacktrackingLoop(nums))
-            .containsExactlyInAnyOrder(result.toArray(new List[]{}));
+            .containsExactlyInAnyOrderElementsOf(result);
     }
 
     @ParameterizedTest
     @MethodSource("data")
     void subsetsCascading(int[] nums, List<List<Integer>> result) {
         assertThat(p78.subsetsCascading(nums))
-            .containsExactlyInAnyOrder(result.toArray(new List[]{}));
+            .containsExactlyInAnyOrderElementsOf(result);
     }
 
 }
