@@ -12,6 +12,7 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 2024-05-26:
 * 131 medium P- https://leetcode.com/problems/palindrome-partitioning/
+* 1642 medium P https://leetcode.com/problems/furthest-building-you-can-reach/
 
 2024-05-21:
 * 78 medium P https://leetcode.com/problems/subsets/
