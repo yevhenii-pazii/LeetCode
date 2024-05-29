@@ -1,4 +1,4 @@
-package problem;
+package problem.p1400_1499;
 
 class P1480 {
 

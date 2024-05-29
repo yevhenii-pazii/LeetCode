@@ -1,4 +1,4 @@
-package problem;
+package problem.p1400_1499;
 
 import java.util.ArrayList;
 import java.util.List;

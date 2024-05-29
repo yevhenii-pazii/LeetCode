@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-05-29:
+* 1404 medium P https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/
+
 2024-05-26:
 * 131 medium P- https://leetcode.com/problems/palindrome-partitioning/
 * 1642 medium P https://leetcode.com/problems/furthest-building-you-can-reach/
