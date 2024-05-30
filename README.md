@@ -10,6 +10,10 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-05-30:
+* 295 hard P https://leetcode.com/problems/find-median-from-data-stream/
+* 144 easy P https://leetcode.com/problems/binary-tree-preorder-traversal/
+
 2024-05-29:
 * 1404 medium P https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/
 
