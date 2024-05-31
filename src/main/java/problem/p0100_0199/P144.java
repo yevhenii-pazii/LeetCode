@@ -4,16 +4,14 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
-import java.util.Stack;
 
 import structure.TreeNode;
 
-public class P144 {
+class P144 {
 
     public List<Integer> preorderTraversal(TreeNode root) {
         return null;
     }
-
 
     /*
         Time Complexity O(N) 100%
@@ -62,4 +60,5 @@ public class P144 {
 
         return result;
     }
+
 }
