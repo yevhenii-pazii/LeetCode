@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-01: 
+* 3110 easy ? https://leetcode.com/problems/score-of-a-string/
+
 2024-05-31
 * 260 medium P- https://leetcode.com/problems/single-number-iii/
 
