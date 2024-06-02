@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-02:
+* 94 easy P https://leetcode.com/problems/binary-tree-inorder-traversal/
+
 2024-06-01: 
 * 3110 easy ? https://leetcode.com/problems/score-of-a-string/
 

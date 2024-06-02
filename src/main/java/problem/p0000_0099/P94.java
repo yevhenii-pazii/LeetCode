@@ -1,7 +1,5 @@
 package problem.p0000_0099;
 
-import structure.TreeNode;
-
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,8 +8,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import structure.TreeNode;
+
 class P94 {
 
+    public List<Integer> inorderTraversal(TreeNode root) {
+        return null;
+    }
 
     /*
         Time Complexity O(N)
@@ -31,8 +34,7 @@ class P94 {
         recursionHelper(node.right, result);
     }
 
-
-    /*
+    /* Stupid solution, old one - don't consider
         Time Complexity O(N)
         Space Complexity O(N)
      */
@@ -86,5 +88,94 @@ class P94 {
         return result;
     }
 
-    //TODO additional solution, that reorganizes tree to have single branch to traverse (Morris Traversal)
+    /*
+        Time Complexity O(N) 100%
+        Space Complexity O(N) 53.37%
+     */
+    public List<Integer> inorderTraversalBrakingTree(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            var node = stack.pop();
+
+            if (node.left == null) {
+                result.add(node.val);
+                if (node.right != null) {
+                    stack.push(node.right);
+                }
+            } else {
+                var left = node.left;
+                node.left = null; // this breaks original tree
+                stack.push(node);
+                stack.push(left);
+            }
+
+        }
+
+        return result;
+    }
+
+    /*
+        Time Complexity O(N) 100%
+        Space Complexity O(N) 53.37%
+     */
+    /* Short explanation
+
+              1
+            /   \
+           2     3
+          / \   /
+         4   5 6
+
+             2
+            / \
+           4   5
+                \
+                 1
+                  \
+                   3
+                  /
+                 6
+
+            4
+             \
+              2
+               \
+                5
+                 \
+                  1
+                   \
+                    3
+                   /
+                  6
+     */
+    public List<Integer> inorderTraversalMorisTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+
+        while (root != null) {
+            if (root.left != null) {
+                var current = root.left;
+                root.left = null;
+
+                var theMostRight = current;
+                while (theMostRight.right != null) {
+                    theMostRight = theMostRight.right;
+                }
+                theMostRight.right = root;
+                root = current;
+            } else {
+                result.add(root.val);
+                root = root.right;
+            }
+        }
+
+        return result;
+    }
+
 }
