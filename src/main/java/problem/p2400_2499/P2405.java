@@ -1,6 +1,4 @@
-package problem;
-
-import java.util.Arrays;
+package problem.p2400_2499;
 
 class P2405 {
 

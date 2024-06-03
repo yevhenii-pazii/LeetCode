@@ -1,4 +1,4 @@
-package problem;
+package problem.p2400_2499;
 
 class P2439 {
 

@@ -10,11 +10,14 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-03:
+* 2486 medium P https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/
+
 2024-06-02:
 * 94 easy P https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 2024-06-01: 
-* 3110 easy ? https://leetcode.com/problems/score-of-a-string/
+* 3110 easy P https://leetcode.com/problems/score-of-a-string/
 
 2024-05-31
 * 260 medium P- https://leetcode.com/problems/single-number-iii/
