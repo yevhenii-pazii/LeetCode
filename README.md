@@ -12,6 +12,7 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 2024-06-03:
 * 2486 medium P https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/
+* 145 easy P https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 2024-06-02:
 * 94 easy P https://leetcode.com/problems/binary-tree-inorder-traversal/
