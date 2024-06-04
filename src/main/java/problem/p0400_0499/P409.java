@@ -5,17 +5,96 @@ import java.util.Map;
 
 class P409 {
 
-    public static void main(String[] args) {
-//        System.out.println((int) Character.valueOf('a'));
-//        System.out.println((int) Character.valueOf('z'));
-//
-//        System.out.println((int) Character.valueOf('A'));
-//        System.out.println((int) Character.valueOf('Z'));
-
-        System.out.println(new P409().longestPalindromeV2("AAAAAAzz"));
+    public int longestPalindrome(String s) {
+        return 0;
     }
 
-    public int longestPalindrome(String s) {
+    /*
+        Time Complexity O(N) 60.18%
+        Space Complexity O(N) 59.67%
+     */
+    public int longestPalindromeHashMap(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < s.length(); i++) {
+            map.compute(s.charAt(i), (k, v) -> v == null ? 1 : v + 1);
+        }
+
+        int result = 0;
+        boolean middleCharacter = false;
+        for (var entry : map.entrySet()) {
+            if ((entry.getValue() & 1) == 1) { // odd
+                if (middleCharacter) {
+                    result += entry.getValue() - 1;
+                } else {
+                    middleCharacter = true;
+                    result += entry.getValue();
+                }
+            } else {
+                result += entry.getValue();
+            }
+
+        }
+
+        return result;
+    }
+
+    /*
+        Time Complexity O(N) 86.01%
+        Space Complexity O(M) M >= N 90.37%
+     */
+    public int longestPalindromeArray(String s) {
+        int[] counts = new int['z' - 'A' + 1];
+        for (int i = 0; i < s.length(); i++) {
+            counts[s.charAt(i) - 'A']++;
+        }
+
+        int result = 0;
+        boolean hadOdd = false;
+        for (int count : counts) {
+            if ((count & 1) == 1) {
+                if (hadOdd) {
+                    result += count - 1;
+                } else {
+                    hadOdd = true;
+                    result += count;
+                }
+            } else {
+                result += count;
+            }
+        }
+
+        return result;
+    }
+
+    /*
+        Time Complexity O(N) 86.01%
+        Space Complexity O(M) M >= N 99.55%
+     */
+    public int longestPalindromeArrayOneLoop(String s) {
+        int result = 0;
+        int oddCount = 0;
+        boolean[] memo = new boolean['z' - 'A' + 1];
+        for (int i = 0; i < s.length(); i++) {
+            int index = s.charAt(i) - 'A';
+            if (memo[index]) {
+                oddCount--;
+                result += 2;
+                memo[index] = false;
+            } else {
+                oddCount++;
+                memo[index] = true;
+            }
+
+        }
+
+        return oddCount == 0 ? result : result + 1;
+    }
+
+    /*
+        Old implementations
+     */
+
+    public int longestPalindromeV1(String s) {
         var string = s.toCharArray();
 
         Map<Character, Integer> table = new HashMap<>();
@@ -63,4 +142,5 @@ class P409 {
 
         return length;
     }
+
 }
