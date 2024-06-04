@@ -5,44 +5,19 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import structure.TreeNode;
+
 class P102 {
 
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new P102().levelOrder(new TreeNode(3,
-                new TreeNode(9),
-
-                new TreeNode(20,
-                        new TreeNode(15),
-                        new TreeNode(7)))));
-
-        System.out.println(new P102().levelOrderFlat(new TreeNode(3,
-                new TreeNode(9),
-
-                new TreeNode(20,
-                        new TreeNode(15),
-                        new TreeNode(7)))));
-    }
-
     public List<List<Integer>> levelOrder(TreeNode root) {
+        return null;
+    }
+
+    /*
+        Time Complexity O(N) 100%
+        Space Complexity O(N) 28.44%
+     */
+    public List<List<Integer>> levelOrderRecursion(TreeNode root) {
         List<List<Integer>> result = new LinkedList<>();
         levelOrder(root, result, 0);
         return result;
@@ -63,7 +38,10 @@ class P102 {
         levelOrder(node.right, result, level);
     }
 
-
+    /*
+        Time Complexity O(N) 88.61%
+        Space Complexity O(N) 98.54%
+     */
     public List<List<Integer>> levelOrderFlat(TreeNode root) {
         List<List<Integer>> result = new LinkedList<>();
         if (root == null) return result;
@@ -77,14 +55,13 @@ class P102 {
             for (var i = 0; i < levelSize; i++) {
                 var node = queue.remove();
                 levelList.add(node.val);
-                if (node.left != null)  queue.add(node.left);
-                if (node.right != null)  queue.add(node.right);
+                if (node.left != null) queue.add(node.left);
+                if (node.right != null) queue.add(node.right);
             }
             result.add(levelList);
         }
 
         return result;
     }
-
 
 }

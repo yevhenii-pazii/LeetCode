@@ -12,6 +12,7 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 2024-06-04:
 * 409 easy P https://leetcode.com/problems/longest-palindrome/
+* 102 easy P https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 2024-06-03:
 * 2486 medium P https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/
