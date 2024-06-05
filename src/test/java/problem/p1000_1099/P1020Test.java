@@ -1,4 +1,4 @@
-package problem;
+package problem.p1000_1099;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

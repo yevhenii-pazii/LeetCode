@@ -1,4 +1,4 @@
-package problem;
+package problem.p1000_1099;
 
 class P1051 {
 
