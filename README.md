@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-05:
+* 1002 easy P https://leetcode.com/problems/find-common-characters/
+
 2024-06-04:
 * 409 easy P https://leetcode.com/problems/longest-palindrome/
 * 102 easy P https://leetcode.com/problems/binary-tree-level-order-traversal/
