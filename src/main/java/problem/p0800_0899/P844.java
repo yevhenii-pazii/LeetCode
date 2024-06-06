@@ -1,4 +1,4 @@
-package problem;
+package problem.p0800_0899;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
