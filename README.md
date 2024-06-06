@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-06:
+* 846 medium P https://leetcode.com/problems/hand-of-straights/
+
 2024-06-05:
 * 1002 easy P https://leetcode.com/problems/find-common-characters/
 
