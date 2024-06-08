@@ -1,4 +1,4 @@
-package problem;
+package problem.p0500_0599;
 
 import java.util.Arrays;
 
