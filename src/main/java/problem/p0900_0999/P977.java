@@ -1,4 +1,4 @@
-package problem;
+package problem.p0900_0999;
 
 class P977 {
 
