@@ -34,4 +34,16 @@ class P974Test {
         assertThat(p974.subarraysDivByKPrefixSum(nums, k)).isEqualTo(result);
     }
 
+    @ParameterizedTest
+    @MethodSource("data")
+    void subarraysDivByKPrefixSumInPlace(int[] nums, int k, int result) {
+        assertThat(p974.subarraysDivByKPrefixSumInPlace(nums, k)).isEqualTo(result);
+    }
+
+    @ParameterizedTest
+    @MethodSource("data")
+    void subarraysDivByKPrefixSumInPlaceArray(int[] nums, int k, int result) {
+        assertThat(p974.subarraysDivByKPrefixSumInPlaceArray(nums, k)).isEqualTo(result);
+    }
+
 }
