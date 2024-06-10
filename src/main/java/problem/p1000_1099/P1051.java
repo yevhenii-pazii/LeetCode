@@ -52,6 +52,8 @@ class P1051 {
         return result;
     }
 
+    //TODO add heap implementation
+
     // Using Counting Sort algorithm, old implementation 2023
     public int heightCheckerOld(int[] heights) {
         var indexes = new int[101];

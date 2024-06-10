@@ -12,6 +12,7 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 2024-06-10:
 * 1051 easy P https://leetcode.com/problems/height-checker/
+* 101 easy P https://leetcode.com/problems/symmetric-tree/
 
 2024-06-09:
 * 974 medium P https://leetcode.com/problems/subarray-sums-divisible-by-k/
