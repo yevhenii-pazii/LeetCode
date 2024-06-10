@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-10:
+* 1051 easy P https://leetcode.com/problems/height-checker/
+
 2024-06-09:
 * 974 medium P https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
