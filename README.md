@@ -12,6 +12,7 @@ Solutions of problems from LeetCode.com
 ## Solved problems
 2024-06-11:
 * 1122 easy P https://leetcode.com/problems/relative-sort-array/
+* 112 easy P https://leetcode.com/problems/path-sum/
 
 2024-06-10:
 * 1051 easy P https://leetcode.com/problems/height-checker/
