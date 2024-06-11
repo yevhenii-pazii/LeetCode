@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-11:
+* 1122 easy P https://leetcode.com/problems/relative-sort-array/
+
 2024-06-10:
 * 1051 easy P https://leetcode.com/problems/height-checker/
 * 101 easy P https://leetcode.com/problems/symmetric-tree/
