@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-12:
+* 75 medium P https://leetcode.com/problems/sort-colors/
+
 2024-06-11:
 * 1122 easy P https://leetcode.com/problems/relative-sort-array/
 * 112 easy P https://leetcode.com/problems/path-sum/
