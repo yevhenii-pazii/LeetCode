@@ -10,6 +10,9 @@ Solutions of problems from LeetCode.com
 2. Add tests to structure package
 
 ## Solved problems
+2024-06-14:
+* 945 medium P https://leetcode.com/problems/minimum-increment-to-make-array-unique/
+
 2024-06-13:
 * 2037 medium P https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/ 
 
