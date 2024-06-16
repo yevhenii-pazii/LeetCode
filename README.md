@@ -9,7 +9,14 @@ Solutions of problems from LeetCode.com
     4. https://www.baeldung.com/java-microbenchmark-harness
 2. Add tests to structure package
 
+## TO DO
+* 502 hard ? https://leetcode.com/problems/ipo/
+* 330 hard ? https://leetcode.com/problems/patching-array/
+
 ## Solved problems
+2024-06-16:
+* 250 medium ? https://leetcode.com/problems/count-univalue-subtrees/
+
 2024-06-14:
 * 945 medium P https://leetcode.com/problems/minimum-increment-to-make-array-unique/
 
