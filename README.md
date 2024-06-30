@@ -9,13 +9,30 @@ Solutions of problems from LeetCode.com
     4. https://www.baeldung.com/java-microbenchmark-harness
 2. Add tests to structure package
 
-## TO DO
+## TO DO 
 * 502 hard ? https://leetcode.com/problems/ipo/
 * 330 hard ? https://leetcode.com/problems/patching-array/
+* 633 medium ? https://leetcode.com/problems/sum-of-square-numbers/
+* 862 medium ? https://leetcode.com/problems/most-profit-assigning-work/
+* 1482 medium ? https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+* 1552 medium ? https://leetcode.com/problems/magnetic-force-between-two-balls/
+* 1052 medium ? https://leetcode.com/problems/grumpy-bookstore-owner/
+* 1248 medium ? https://leetcode.com/problems/count-number-of-nice-subarrays/
+* 1438 medium ? https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+* 995 hard ? https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+* 1038 medium ? https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+* 1382 medium ? https://leetcode.com/problems/balance-a-binary-search-tree/
+* 1791 easy ? https://leetcode.com/problems/find-center-of-star-graph/
+* 2285 medium ? https://leetcode.com/problems/maximum-total-importance-of-roads/
+* 2192 medium ? https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
+* 1579 hard ? https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/
 
 ## Solved problems
+2024-06-17:
+* 633 medium ? https://leetcode.com/problems/sum-of-square-numbers/ //TODO need to finish
+ 
 2024-06-16:
-* 250 medium ? https://leetcode.com/problems/count-univalue-subtrees/
+* 250 medium P https://leetcode.com/problems/count-univalue-subtrees/
 
 2024-06-14:
 * 945 medium P https://leetcode.com/problems/minimum-increment-to-make-array-unique/
